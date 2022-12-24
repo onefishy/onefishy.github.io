@@ -1,7 +1,12 @@
 ---
 layout: post
-title: Recent Work
+title: Research
 ---
+
+I am generally interested in unfolding consequences of design choices in machine learning pipelines (e.g. model assumptions, inductive biases, inference, optimization and model explanations) for social-technical decision making systems. I am also broadly interested in issues of AI safety, ethics and regulation.
+
+#### Recent Work
+More publications can be found at my [Google Scholar](https://scholar.google.com/citations?hl=en&user=4mmuvFgAAAAJ&view_op=list_works&gmla=AJsN-F5bL3dw5jD4ejRi0SQ1tJXKMOrJkd9TtZbRMr24y-EezVDMPWVHzUwilBE7qF37B1QmCs7fz05isA26H-4MVgtEUf3q4_IU2HZpxC53Tat-3o4fnog).
 
 1. Zixi Chen, Varshini Subhash, Marton Havasi, Weiwei Pan, Finale Doshi-Velez, [*What Makes a Good Explanation?: A Harmonized View of Properties of Explanations*](https://arxiv.org/abs/2211.05667), Neurips Workshop on Progress and Challenges in Building Trustworthy Embodied AI, 2022.
 2. Ziyan Zhu, Marios Mattheakis, Weiwei Pan, Efthimios Kaxiras, [*HubbardNet: Efficient Predictions of the Bose-Hubbard Model Spectrum with Deep Neural Networks*](https://ml4physicalsciences.github.io/2022/files/NeurIPS_ML4PS_2022_87.pdf), Neurips Workshop on Machine Learning and the Physical Sciences, 2022.
