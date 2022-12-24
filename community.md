@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Equity, Diversity, Inclusion and Belonging
+title: Community
 ---
 
 Since 2018, I've been organizing the data science workshop for the annual Women in Data Science Cambridge (WiDS) conference: [WiDS Datathon Workshop 2022](https://onefishy.github.io/wids_datathon/). Since 2021, I've served as the co-director of the [Worldwide WiDS Datathon](https://www.widsconference.org).
