@@ -3,7 +3,7 @@ layout: post
 title: Research
 ---
 
-I am generally interested in unfolding consequences of design choices in machine learning pipelines (e.g. model assumptions, inductive biases, inference, optimization and model explanations) for social-technical decision making systems. I am also broadly interested in issues of AI safety, ethics and regulation.
+I am generally interested in unfolding consequences of design choices in machine learning pipelines (e.g. model assumptions, inductive biases, inference, optimization and model explanations) for social-technical decision making systems. I am also broadly interested in issues of AI safety, ethics and regulation. My interests include uncertainty quantification, deep generative models, deep Bayesian models, approximate inference, user modeling in RL, explanable AI and HCI.
 
 #### Recent Work
 More publications can be found at my [Google Scholar](https://scholar.google.com/citations?hl=en&user=4mmuvFgAAAAJ&view_op=list_works&gmla=AJsN-F5bL3dw5jD4ejRi0SQ1tJXKMOrJkd9TtZbRMr24y-EezVDMPWVHzUwilBE7qF37B1QmCs7fz05isA26H-4MVgtEUf3q4_IU2HZpxC53Tat-3o4fnog).
