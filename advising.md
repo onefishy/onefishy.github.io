@@ -10,8 +10,7 @@ I advise students enrolled in the IACS Master's programs, theses students (under
   - For Research/Internship Planning and Fall 2022 Performance Evaluation: [Sign-up for a 20 min slot](https://calendly.com/weiweipan/spring-general-advising) between Jan 16th and Jan 19th
 
 1. Spring 2023 Open Office Hours:
-  - Tuesday, Thursday TBA in *SEC 2.341*
-  - Wednesday, Friday TBA in *SEC 2.341*
+  - Tuesday, Thursday 11am-12pm in *SEC 2.341*
 
 2. Email: ``weiweipan (at) g (dot) harvard (dot) edu``. Please prioritize using my open office hours -- my responses to emails will be *slow*. If you plan to email, please preface the email subject with ``[ADVISING]``; advising emails without this preface in the subject may go unanswered.
 
