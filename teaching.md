@@ -5,7 +5,7 @@ title: Recent Courses
 
 I teach undergraduate and graduate courses in data science and machine learning. Students interested in directed research should [contact me](/advising.html).
 
-* [CS 181:](https://harvard-ml-courses.github.io/cs181-web/) *Machine Learning* (Spring 2023)
+* [CS 181:](https://onefishy.github.io/ML_notes/) *Machine Learning* (Spring 2023)
 * [AC 297r:](https://www.capstone.iacs.seas.harvard.edu) *Computational Science and Engineering Capstone Project* (Fall 2022)
 * [AM 207:](https://onefishy.github.io/am207/) *Advanced Scientific Computing: Stochastic Optimization Methods* (Fall 2019-2021)
 * [DSC 6232:](https://onefishy.github.io/Rwanda-Data-Science/) *Machine Learning and Computational Statistics at the University of Rwanda* (Summer 2019-2021)
