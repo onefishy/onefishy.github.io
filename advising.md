@@ -13,7 +13,7 @@ I advise students enrolled in the IACS Master's programs, theses students (under
   - For Course Selection: [Sign-up for a 20 min slot](https://calendly.com/weiweipan/fall-course-advising) between August 18th and August 31st
 
 2. Fall 2023 Open Office Hours:
-  - TBA
+  - Tuesdays 11am-1pm, SEC 1.312
 
 3. Email: ``weiweipan (at) g (dot) harvard (dot) edu``. Please prioritize using my open office hours -- my responses to emails will be *slow*. If you plan to email, please preface the email subject with ``[ADVISING]``; advising emails without this preface in the subject may go unanswered.
 
