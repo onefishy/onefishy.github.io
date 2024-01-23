@@ -9,11 +9,8 @@ I advise students enrolled in the IACS Master's programs, theses students (under
   - If you are interested in research supervision please email me or drop by an Open Office Hour.
   - New research students should carefully read the [on-boarding document on developing fundamental skills in research](https://docs.google.com/presentation/d/1EQIupyrH7z2sUUH99CMQQJc9JzV8reTzQ6RYOeWQ1tE/edit?usp=sharing)
 
-1. Fall 2023 Pre-Term Advising
-  - For Course Selection: [Sign-up for a 20 min slot](https://calendly.com/weiweipan/fall-course-advising) between August 18th and August 31st
+1. Spring 2024 Open Office Hours:
+  - Tuesdays 1pm-3pm, SEC 1.312
 
-2. Fall 2023 Open Office Hours:
-  - Tuesdays 11am-1pm, SEC 1.312
-
-3. Email: ``weiweipan (at) g (dot) harvard (dot) edu``. Please prioritize using my open office hours -- my responses to emails will be *slow*. If you plan to email, please preface the email subject with ``[ADVISING]``; advising emails without this preface in the subject may go unanswered.
+2. Email: ``weiweipan (at) g (dot) harvard (dot) edu``. Please prioritize using my open office hours -- my responses to emails will be *slow*. If you plan to email, please preface the email subject with ``[ADVISING]``; advising emails without this preface in the subject may go unanswered.
 
