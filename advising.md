@@ -3,7 +3,7 @@ layout: post
 title: Advising
 ---
 
-I advise students enrolled in the IACS Master's programs, theses students (undergraduate and masters), and research students (undergraduate and graduate). I am also happy to provide mentorship or support to students in the broader SEAS community. Students can find me through the following channels.
+I advise students enrolled in SEAS Master's programs in Data Science and Computational Science & Engineering, theses students (undergraduate, masters and PhD), and research students (undergraduate and graduate). I am also happy to provide mentorship or support to students in the broader SEAS community. Students can find me through the following channels.
 
 0. Research Advising
   - If you are interested in research supervision please email me or drop by an Open Office Hour.
