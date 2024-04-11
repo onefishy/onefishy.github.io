@@ -12,5 +12,7 @@ I advise students enrolled in SEAS Master's programs in Data Science and Computa
 1. Spring 2024 Open Office Hours:
   - Tuesdays 1pm-3pm, SEC 2.341 (Note that this is a new location)
 
-2. Email: ``weiweipan (at) g (dot) harvard (dot) edu``. Please prioritize using my open office hours -- my responses to emails will be *slow*. If you plan to email, please preface the email subject with ``[ADVISING]``; advising emails without this preface in the subject may go unanswered.
+2. I'm the faculty mentor of the SEAS PhD Working Group, a working group for masters and undergraduate students who are interested in receiving support and mentorship through their PhD application process. [Sign up for the PhD Working Group](https://forms.gle/cyVFBi5qoNw96DNW6). 
+
+3. Email: ``weiweipan (at) g (dot) harvard (dot) edu``. Please prioritize using my open office hours -- my responses to emails will be *slow*. If you plan to email, please preface the email subject with ``[ADVISING]``; advising emails without this preface in the subject may go unanswered.
 
