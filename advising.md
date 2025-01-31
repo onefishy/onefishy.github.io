@@ -9,8 +9,8 @@ I advise students enrolled in SEAS Master's programs in Data Science and Computa
   - If you are interested in research supervision please email me or drop by an Open Office Hour.
   - New research students should carefully read the [on-boarding document on developing fundamental skills in research](https://docs.google.com/presentation/d/1EQIupyrH7z2sUUH99CMQQJc9JzV8reTzQ6RYOeWQ1tE/edit?usp=sharing)
 
-1. Fall 2024 Open Office Hours:
-  - Tuesdays 1pm-3pm, SEC 2.341
+1. Spring 2025 Open Office Hours:
+  - Mondays 1pm-3pm, SEC 2.341
 
 2. I'm the faculty mentor of the SEAS PhD Working Group, a working group for masters and undergraduate students who are interested in receiving support and mentorship through their PhD application process. [Sign up for the PhD Working Group](https://forms.gle/cyVFBi5qoNw96DNW6). 
 
