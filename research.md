@@ -12,7 +12,7 @@ More publications can be found at my [Google Scholar](https://scholar.google.com
 
 
 0. Philipp Arens, D. Adam Quirk, Weiwei Pan, Yaniv Yacoby, Finale Doshi-Velez, Connor J. Walsh, [Preference-based assistance optimization for lifting and lowering with a soft back exosuit](https://www.science.org/doi/10.1126/sciadv.adu2099), Science Advances, 2025.
-1. Salma Abdel Magid, Weiwei Pan, Simon Warchol, Grace Guo, Junsik Kim, Mahia Rahman, Hanspeter Pfister, [Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models](https://arxiv.org/abs/2410.04634), CVPR Workshop on Explainable AI for Computer Vision, 2025.
+1. Salma Abdel Magid, Weiwei Pan, Simon Warchol, Grace Guo, Junsik Kim, Mahia Rahman, Hanspeter Pfister, [Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models](https://arxiv.org/abs/2410.04634), TMLR, 2025.
 2. Zilin Ma, Yiyang Mei, Claude Bruderlein, Krzysztof Z. Gajos, Weiwei Pan, ["ChatGPT, Don't Tell Me What to Do": Designing AI for Context Analysis in Humanitarian Frontline Negotiations](https://arxiv.org/abs/2410.09139), CHI Work, 2025.
 3. Kirsten N. Morehouse, Siddharth Swaroop, Weiwei Pan, [Rethinking LLM Bias Probing Using Lessons from the Social Sciences](https://arxiv.org/abs/2503.00093), ICLR Workshop on Building Trust in Language Models, 2025.
 4. Jonas B Raedler, Siddharth Swaroop, Weiwei Pan, [AI Companions Are Not The Solution To Loneliness: Design Choices And Their Drawbacks](), ICLR Workshop on Building Trust in Language Models, 2025.
