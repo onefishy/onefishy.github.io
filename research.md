@@ -12,7 +12,7 @@ More publications can be found at my [Google Scholar](https://scholar.google.com
 
 
 0. Ian M. Moore, Eura Nofshin, Siddharth Swaroop, Susan Murphy, Finale Doshi-Velez, Weiwei Pan, [When and Why Hyperbolic Discounting Matters for Reinforcement Learning Interventions](https://openreview.net/forum?id=kbFxSZUIwZ&referrer=%5Bthe%20profile%20of%20Susan%20Murphy%5D(%2Fprofile%3Fid%3D~Susan_Murphy1)), RLC, 2025
-0. Hiwot Belay Tadesse, Alihan Hüyük, Weiwei Pan, Finale Doshi-Velez, [Directly Optimizing Explanations for Desired Properties](https://arxiv.org/abs/2410.23880), UAI, 2025.
+0. Hiwot Belay Tadesse, Alihan Hüyük, Yaniv Yacoby, Weiwei Pan, Finale Doshi-Velez, [Directly Optimizing Explanations for Desired Properties](https://arxiv.org/abs/2410.23880), UAI, 2025.
 1. Kirsten N. Morehouse, Siddharth Swaroop, Weiwei Pan, [Rethinking LLM Bias Probing Using Lessons from the Social Sciences](https://arxiv.org/abs/2503.00093), ICML (Position Track), 2025.
 2. Philipp Arens, D. Adam Quirk, Weiwei Pan, Yaniv Yacoby, Finale Doshi-Velez, Connor J. Walsh, [Preference-based assistance optimization for lifting and lowering with a soft back exosuit](https://www.science.org/doi/10.1126/sciadv.adu2099), Science Advances, 2025.
 3. Salma Abdel Magid, Weiwei Pan, Simon Warchol, Grace Guo, Junsik Kim, Mahia Rahman, Hanspeter Pfister, [Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models](https://arxiv.org/abs/2410.04634), TMLR, 2025.
