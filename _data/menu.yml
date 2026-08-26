@@ -1,17 +1,11 @@
 - title: About
-  url: /about.html
+  url: "#about"
 
 - title: Research
-  url: /research.html
+  url: "#research"
 
 - title: Teaching
-  url: /teaching.html
+  url: "#teaching"
 
-- title: Advising
-  url: /advising.html
-
-- title: Community
-  url: /community.html
-
-- title: Co-Conspirators
-  url: /animals.html
+- title: Advocacy
+  url: "#community"

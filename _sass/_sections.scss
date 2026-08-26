@@ -1,0 +1,19 @@
+.section {
+  // Establishes a new block-formatting context so the inner .post's own
+  // top/bottom margins don't collapse through and leak the wrong background
+  // color into the gap at the section boundary.
+  display: flow-root;
+  padding: 3em 0;
+}
+
+.section--about           { background: $section-bg-about; }
+.section--research        { background: $section-bg-research; }
+.section--teaching        { background: $section-bg-teaching; }
+.section--community       { background: $section-bg-community; }
+
+#top.site-masthead {
+  background:
+    linear-gradient($hero-overlay, $hero-overlay),
+    url('#{$asset_url}/images/banner.jpg') center / cover no-repeat;
+  display: flex;
+}

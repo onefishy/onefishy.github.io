@@ -10,8 +10,8 @@
   margin: 0 .25em;
   &:hover,
   &:focus {
-    background: $brand-color;
-    border-color: $brand-color;
+    background: $highlight;
+    border-color: $highlight;
   }
 }
 

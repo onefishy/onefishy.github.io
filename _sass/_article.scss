@@ -31,6 +31,13 @@
   text-indent: 0;
 }
 
+#about figure img {
+  width: 14rem;
+  height: 14rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .post a {
   background: $highlight;
 }

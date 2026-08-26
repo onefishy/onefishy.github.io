@@ -1,9 +1,8 @@
 ---
-layout: post
-title: Recent Courses
+anchor: teaching
 ---
 
-I teach undergraduate and graduate courses in data science and machine learning. Students interested in directed research should [contact me](/advising.html).
+I teach undergraduate and graduate courses in data science and machine learning. Students interested in directed research should [contact me](mailto:weiweipan@g.harvard.edu).
 
 * [AC 297r:](https://www.capstone.iacs.seas.harvard.edu) *Computational Science and Engineering Capstone Project* (Fall, Spring)
 * [AC 298r:](https://onefishy.github.io/DIL_in_tech/) *Diversity, Inclusion, Ethics and Leadership in Tech* (Fall)

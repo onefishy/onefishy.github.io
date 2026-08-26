@@ -2,6 +2,9 @@
   box-sizing: border-box;
   position: relative;
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 70vh;
 }
 
 .site-masthead h1 {

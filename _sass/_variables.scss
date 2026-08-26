@@ -1,9 +1,23 @@
 $brand-color:         #645452;
-$highlight:           lighten($brand-color, 20%);
-$highlight-hover:     lighten($brand-color, 33%);
-$text-color:          #ffffff;
-$muted-text-color:    darken($text-color, 35%);
 $font-family:         "EB Garamond", Garamond, "Times New Roman", serif;
+
+$nav-height:          3.5rem;
+
+// Light theme sampled from assets/images/banner.jpg (watercolor of a dog on
+// coastal rock). Text/muted-text come from the deepest shadow tones in the
+// image; highlights from its warm tan rock-highlight tones; section
+// backgrounds alternate between its cool blue-grey and warm cream/tan tones.
+$text-color:          #4c473f;
+$muted-text-color:    lighten($text-color, 22%);
+$highlight:           #dbc5af;
+$highlight-hover:     #c2ac9b;
+$hero-overlay:        rgba(250, 246, 238, .55);
+
+$section-bg-hero:            #ece4d6;
+$section-bg-about:           #d7ddd6;
+$section-bg-research:        #f1ece0;
+$section-bg-teaching:        #c6cdc6;
+$section-bg-community:       #eaece7;
 
 $on-bigphone:         375px;
 $on-tablet:           768px;
