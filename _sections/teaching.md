@@ -285,7 +285,6 @@ The aim of my teaching is to grow students in intellectual empowerment, independ
       font-weight: 500;
       letter-spacing: 1.4px;
       text-anchor: middle;
-      text-transform: uppercase;
     }
 
     .teaching-diagram .explanation {
