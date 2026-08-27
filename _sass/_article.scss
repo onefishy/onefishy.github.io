@@ -60,17 +60,27 @@
   margin: 2em auto;
 }
 
-// The assurance framework diagram runs the full breakout width instead of
-// the standard 60rem cap.
-.post-content figure.diagram svg.assurance-diagram {
+// The assurance framework, teaching philosophy, and advocacy diagrams run
+// the full breakout width instead of the standard 60rem cap.
+.post-content figure.diagram svg.assurance-diagram,
+.post-content figure.diagram svg.teaching-diagram,
+.post-content figure.diagram img.advocacy-diagram {
   max-width: none;
 }
 
-// The course map stays within the normal content column instead of
-// breaking out to full width, but renders as a wide rectangle.
+// The course map breaks out to the full width, like the other diagrams.
 .course-map-figure {
-  margin: 2em auto;
-  max-width: 40rem;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  max-width: none;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 0 1em;
+  box-sizing: border-box;
 }
 
 .course-map-figure svg {

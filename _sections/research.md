@@ -14,9 +14,9 @@ In my research, I use formal lenses and methodologies from mathematics, statisti
      width="1200"
      height="600"
      role="img"
-     aria-labelledby="diagram-title diagram-description"
+     aria-label="Assurance Framework for Human-Centered AI"
+     aria-describedby="diagram-description"
      preserveAspectRatio="xMidYMid meet">
-  <title id="diagram-title">Assurance Framework for Human-Centered AI</title>
   <desc id="diagram-description">Three nested research levels. The model sits inside the task, and both sit inside society. Each level is paired with its research goal. Hover a ring or a level to highlight it.</desc>
 
   <style>
@@ -113,6 +113,11 @@ In my research, I use formal lenses and methodologies from mathematics, statisti
     .assurance-diagram [data-level].is-active .goal {
       font-weight: 700;
       fill: var(--ink-strong);
+    }
+
+    .assurance-diagram [data-level].is-active .level,
+    .assurance-diagram [data-level].is-active .goal {
+      text-decoration: underline;
     }
   </style>
 

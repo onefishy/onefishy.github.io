@@ -20,13 +20,13 @@
       font-weight: 400;
     }
 
-    .heading { font-size: 24px; font-weight: 500; }
-    .stage-number { font-size: 17px; font-weight: 500; text-anchor: middle; }
-    .stage-title { font-size: 20px; font-weight: 500; text-anchor: middle; }
-    .principle { fill: var(--ca-muted); font-size: 15px; text-anchor: middle; }
-    .activity-name { font-size: 17px; }
-    .activity-meta { fill: var(--ca-muted); font-size: 14px; }
-    .note { fill: var(--ca-muted); font-size: 14px; }
+    .heading { font-size: 26px; font-weight: 500; }
+    .stage-number { font-size: 18px; font-weight: 500; text-anchor: middle; }
+    .stage-title { font-size: 21px; font-weight: 500; text-anchor: middle; }
+    .principle { fill: var(--ca-muted); font-size: 16px; text-anchor: middle; }
+    .activity-name { font-size: 18px; }
+    .activity-meta { fill: var(--ca-muted); font-size: 15px; }
+    .note { fill: var(--ca-muted); font-size: 15px; }
     .divider { stroke: var(--ca-border); stroke-width: 1; }
     .stage-circle { fill: var(--ca-background); stroke-width: 2.5; }
     .stage-1-stroke { stroke: var(--ca-stage-1); }

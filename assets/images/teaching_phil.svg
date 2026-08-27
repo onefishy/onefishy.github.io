@@ -1,11 +1,11 @@
 <svg class="teaching-diagram" xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1200 300"
+     viewBox="0 0 1200 330"
      width="1200"
-     height="300"
+     height="330"
      role="img"
-     aria-labelledby="teaching-title teaching-description"
+     aria-label="Teaching for intellectual agency"
+     aria-describedby="teaching-description"
      preserveAspectRatio="xMidYMid meet">
-  <title id="teaching-title">Teaching for intellectual agency</title>
   <desc id="teaching-description">Three enabling conditions for teaching: structured discovery, visible progress, and equitable access.</desc>
 
   <style>
@@ -45,15 +45,15 @@
 
     .teaching-diagram .principle {
       fill: var(--ink);
-      font-size: 23px;
+      font-size: 27px;
       font-weight: 500;
-      letter-spacing: 1.4px;
+      letter-spacing: 1.6px;
       text-anchor: middle;
     }
 
     .teaching-diagram .explanation {
       fill: var(--ink);
-      font-size: 18px;
+      font-size: 21px;
       font-weight: 400;
       text-anchor: middle;
     }
@@ -61,38 +61,38 @@
 
   <g aria-label="Three enabling conditions">
     <g aria-label="Structured discovery: Problems make methods necessary">
-      <circle class="principle-circle discovery-circle" cx="220" cy="150" r="125"/>
-      <text class="principle" x="220" y="122">
+      <circle class="principle-circle discovery-circle" cx="220" cy="165" r="145"/>
+      <text class="principle" x="220" y="132">
         <tspan x="220" dy="0">STRUCTURED</tspan>
-        <tspan x="220" dy="29">DISCOVERY</tspan>
+        <tspan x="220" dy="34">DISCOVERY</tspan>
       </text>
-      <text class="explanation" x="220" y="192">
+      <text class="explanation" x="220" y="214">
         <tspan x="220" dy="0">Problems make methods</tspan>
-        <tspan x="220" dy="25">necessary.</tspan>
+        <tspan x="220" dy="29">necessary.</tspan>
       </text>
     </g>
 
     <g aria-label="Visible progress: Goals, support and standards are explicit">
-      <circle class="principle-circle progress-circle" cx="600" cy="150" r="125"/>
-      <text class="principle" x="600" y="122">
+      <circle class="principle-circle progress-circle" cx="600" cy="165" r="145"/>
+      <text class="principle" x="600" y="132">
         <tspan x="600" dy="0">VISIBLE</tspan>
-        <tspan x="600" dy="29">PROGRESS</tspan>
+        <tspan x="600" dy="34">PROGRESS</tspan>
       </text>
-      <text class="explanation" x="600" y="192">
+      <text class="explanation" x="600" y="214">
         <tspan x="600" dy="0">Goals, support and</tspan>
-        <tspan x="600" dy="25">standards are explicit.</tspan>
+        <tspan x="600" dy="29">standards are explicit.</tspan>
       </text>
     </g>
 
     <g aria-label="Equitable access: Barriers are addressed and identities honoured">
-      <circle class="principle-circle access-circle" cx="980" cy="150" r="125"/>
-      <text class="principle" x="980" y="122">
+      <circle class="principle-circle access-circle" cx="980" cy="165" r="145"/>
+      <text class="principle" x="980" y="132">
         <tspan x="980" dy="0">EQUITABLE</tspan>
-        <tspan x="980" dy="29">ACCESS</tspan>
+        <tspan x="980" dy="34">ACCESS</tspan>
       </text>
-      <text class="explanation" x="980" y="192">
+      <text class="explanation" x="980" y="214">
         <tspan x="980" dy="0">Barriers are addressed</tspan>
-        <tspan x="980" dy="25">and identities honoured.</tspan>
+        <tspan x="980" dy="29">and identities honoured.</tspan>
       </text>
     </g>
   </g>

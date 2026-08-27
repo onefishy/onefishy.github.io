@@ -5,8 +5,7 @@ anchor: teaching
 I designed and taught my first course, Advanced C++ Programming, at the age 16, during my junior year at Mary Baldwin College. Since then, I've designed and taught over 30 courses in Mathematics, Computer Science, Data Science and Machine Learning across undergraduate and graduate curricula, at six very different institutions of higher learning.
 
 <figure class="course-map-figure">
-<svg class="teaching-course-map" xmlns="http://www.w3.org/2000/svg" viewBox="-98 53 749 419" width="749" height="419" role="img" aria-labelledby="cd-title cd-desc" preserveAspectRatio="xMidYMid meet">
-  <title id="cd-title">Courses across subjects and levels</title>
+<svg class="teaching-course-map" xmlns="http://www.w3.org/2000/svg" viewBox="-98 53 749 419" width="749" height="419" role="img" aria-label="Courses across subjects and levels" aria-describedby="cd-desc" preserveAspectRatio="xMidYMid meet">
   <desc id="cd-desc">Thirty course entries are positioned along four subject directions and across three nested teaching levels. Hovering over a course mark shows its full title and institution.</desc>
 
   <style>
@@ -47,7 +46,7 @@ I designed and taught my first course, Advanced C++ Programming, at the age 16, 
     }
 
     .teaching-course-map .cd-subject-label {
-      font-size: 23px;
+      font-size: 26px;
       font-weight: 500;
       letter-spacing: 0.4px;
     }
@@ -59,7 +58,7 @@ I designed and taught my first course, Advanced C++ Programming, at the age 16, 
 
     .teaching-course-map .cd-level-label {
       fill: var(--teaching-map-muted);
-      font-size: 15px;
+      font-size: 17px;
       font-weight: 400;
       letter-spacing: 0.2px;
       opacity: 0.85;
@@ -101,7 +100,7 @@ I designed and taught my first course, Advanced C++ Programming, at the age 16, 
   <text class="cd-subject-label cd-label-math" x="260" y="90" text-anchor="middle">Math</text>
   <text class="cd-subject-label cd-label-cs" x="498" y="250" text-anchor="start">
     <tspan x="498" dy="0">Computer</tspan>
-    <tspan x="498" dy="24">Science</tspan>
+    <tspan x="498" dy="27">Science</tspan>
   </text>
   <text class="cd-subject-label cd-label-ml" x="260" y="452" text-anchor="middle">Data + ML</text>
   <text class="cd-subject-label cd-label-society" x="22.0" y="267" text-anchor="end">Society</text>
@@ -227,13 +226,13 @@ The aim of my teaching is to grow students in intellectual empowerment, independ
 
 <figure class="diagram">
 <svg class="teaching-diagram" xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1200 300"
+     viewBox="0 0 1200 330"
      width="1200"
-     height="300"
+     height="330"
      role="img"
-     aria-labelledby="teaching-title teaching-description"
+     aria-label="Teaching for intellectual agency"
+     aria-describedby="teaching-description"
      preserveAspectRatio="xMidYMid meet">
-  <title id="teaching-title">Teaching for intellectual agency</title>
   <desc id="teaching-description">Three enabling conditions for teaching: structured discovery, visible progress, and equitable access.</desc>
 
   <style>
@@ -273,15 +272,15 @@ The aim of my teaching is to grow students in intellectual empowerment, independ
 
     .teaching-diagram .principle {
       fill: var(--ink);
-      font-size: 23px;
+      font-size: 27px;
       font-weight: 500;
-      letter-spacing: 1.4px;
+      letter-spacing: 1.6px;
       text-anchor: middle;
     }
 
     .teaching-diagram .explanation {
       fill: var(--ink);
-      font-size: 18px;
+      font-size: 21px;
       font-weight: 400;
       text-anchor: middle;
     }
@@ -289,38 +288,38 @@ The aim of my teaching is to grow students in intellectual empowerment, independ
 
   <g aria-label="Three enabling conditions">
     <g aria-label="Structured discovery: Problems make methods necessary">
-      <circle class="principle-circle discovery-circle" cx="220" cy="150" r="125"/>
-      <text class="principle" x="220" y="122">
+      <circle class="principle-circle discovery-circle" cx="220" cy="165" r="145"/>
+      <text class="principle" x="220" y="132">
         <tspan x="220" dy="0">STRUCTURED</tspan>
-        <tspan x="220" dy="29">DISCOVERY</tspan>
+        <tspan x="220" dy="34">DISCOVERY</tspan>
       </text>
-      <text class="explanation" x="220" y="192">
+      <text class="explanation" x="220" y="214">
         <tspan x="220" dy="0">Problems make methods</tspan>
-        <tspan x="220" dy="25">necessary.</tspan>
+        <tspan x="220" dy="29">necessary.</tspan>
       </text>
     </g>
 
     <g aria-label="Visible progress: Goals, support and standards are explicit">
-      <circle class="principle-circle progress-circle" cx="600" cy="150" r="125"/>
-      <text class="principle" x="600" y="122">
+      <circle class="principle-circle progress-circle" cx="600" cy="165" r="145"/>
+      <text class="principle" x="600" y="132">
         <tspan x="600" dy="0">VISIBLE</tspan>
-        <tspan x="600" dy="29">PROGRESS</tspan>
+        <tspan x="600" dy="34">PROGRESS</tspan>
       </text>
-      <text class="explanation" x="600" y="192">
+      <text class="explanation" x="600" y="214">
         <tspan x="600" dy="0">Goals, support and</tspan>
-        <tspan x="600" dy="25">standards are explicit.</tspan>
+        <tspan x="600" dy="29">standards are explicit.</tspan>
       </text>
     </g>
 
     <g aria-label="Equitable access: Barriers are addressed and identities honoured">
-      <circle class="principle-circle access-circle" cx="980" cy="150" r="125"/>
-      <text class="principle" x="980" y="122">
+      <circle class="principle-circle access-circle" cx="980" cy="165" r="145"/>
+      <text class="principle" x="980" y="132">
         <tspan x="980" dy="0">EQUITABLE</tspan>
-        <tspan x="980" dy="29">ACCESS</tspan>
+        <tspan x="980" dy="34">ACCESS</tspan>
       </text>
-      <text class="explanation" x="980" y="192">
+      <text class="explanation" x="980" y="214">
         <tspan x="980" dy="0">Barriers are addressed</tspan>
-        <tspan x="980" dy="25">and identities honoured.</tspan>
+        <tspan x="980" dy="29">and identities honoured.</tspan>
       </text>
     </g>
   </g>
