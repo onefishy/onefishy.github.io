@@ -1,32 +1,24 @@
 <svg class="teaching-diagram" xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1200 500"
+     viewBox="0 0 1200 300"
      width="1200"
-     height="500"
+     height="300"
      role="img"
      aria-labelledby="teaching-title teaching-description"
      preserveAspectRatio="xMidYMid meet">
   <title id="teaching-title">Teaching for intellectual agency</title>
-  <desc id="teaching-description">Structured discovery, visible progress, and equitable access enable students to make and defend consequential technical choices.</desc>
+  <desc id="teaching-description">Three enabling conditions for teaching: structured discovery, visible progress, and equitable access.</desc>
 
   <style>
     .teaching-diagram {
       --ink: #4c473f;
-      --rule: #d9dee7;
       --discovery: #2563eb;
       --progress: #0f8a7a;
       --access: #7c4dcc;
     }
 
     .teaching-diagram .principle,
-    .teaching-diagram .explanation,
-    .teaching-diagram .outcome {
+    .teaching-diagram .explanation {
       font-family: "EB Garamond", Garamond, "Times New Roman", serif;
-    }
-
-    .teaching-diagram .connector {
-      fill: none;
-      stroke: var(--rule);
-      stroke-width: 2;
     }
 
     .teaching-diagram .principle-circle {
@@ -65,60 +57,43 @@
       font-weight: 400;
       text-anchor: middle;
     }
-
-    .teaching-diagram .convergence-dot {
-      fill: var(--ink);
-    }
-
-    .teaching-diagram .outcome {
-      fill: var(--ink);
-      font-size: 24px;
-      font-weight: 500;
-      text-anchor: middle;
-    }
   </style>
 
   <g aria-label="Three enabling conditions">
-    <path class="connector" d="M220 300 L600 381 L980 300"/>
-    <line class="connector" x1="600" y1="300" x2="600" y2="381"/>
-
     <g aria-label="Structured discovery: Problems make methods necessary">
-      <circle class="principle-circle discovery-circle" cx="220" cy="175" r="125"/>
-      <text class="principle" x="220" y="147">
+      <circle class="principle-circle discovery-circle" cx="220" cy="150" r="125"/>
+      <text class="principle" x="220" y="122">
         <tspan x="220" dy="0">STRUCTURED</tspan>
         <tspan x="220" dy="29">DISCOVERY</tspan>
       </text>
-      <text class="explanation" x="220" y="217">
+      <text class="explanation" x="220" y="192">
         <tspan x="220" dy="0">Problems make methods</tspan>
         <tspan x="220" dy="25">necessary.</tspan>
       </text>
     </g>
 
     <g aria-label="Visible progress: Goals, support and standards are explicit">
-      <circle class="principle-circle progress-circle" cx="600" cy="175" r="125"/>
-      <text class="principle" x="600" y="147">
+      <circle class="principle-circle progress-circle" cx="600" cy="150" r="125"/>
+      <text class="principle" x="600" y="122">
         <tspan x="600" dy="0">VISIBLE</tspan>
         <tspan x="600" dy="29">PROGRESS</tspan>
       </text>
-      <text class="explanation" x="600" y="217">
+      <text class="explanation" x="600" y="192">
         <tspan x="600" dy="0">Goals, support and</tspan>
         <tspan x="600" dy="25">standards are explicit.</tspan>
       </text>
     </g>
 
     <g aria-label="Equitable access: Barriers are addressed and identities honoured">
-      <circle class="principle-circle access-circle" cx="980" cy="175" r="125"/>
-      <text class="principle" x="980" y="147">
+      <circle class="principle-circle access-circle" cx="980" cy="150" r="125"/>
+      <text class="principle" x="980" y="122">
         <tspan x="980" dy="0">EQUITABLE</tspan>
         <tspan x="980" dy="29">ACCESS</tspan>
       </text>
-      <text class="explanation" x="980" y="217">
+      <text class="explanation" x="980" y="192">
         <tspan x="980" dy="0">Barriers are addressed</tspan>
         <tspan x="980" dy="25">and identities honoured.</tspan>
       </text>
     </g>
   </g>
-
-  <circle class="convergence-dot" cx="600" cy="381" r="5"/>
-  <text class="outcome" x="600" y="442">Students make and defend consequential technical choices.</text>
 </svg>

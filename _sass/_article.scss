@@ -60,11 +60,17 @@
   margin: 2em auto;
 }
 
-// Compact square figures (e.g. the course map) stay within the normal
-// content column instead of breaking out to full width.
+// The assurance framework diagram runs the full breakout width instead of
+// the standard 60rem cap.
+.post-content figure.diagram svg.assurance-diagram {
+  max-width: none;
+}
+
+// The course map stays within the normal content column instead of
+// breaking out to full width, but renders as a wide rectangle.
 .course-map-figure {
   margin: 2em auto;
-  max-width: 30rem;
+  max-width: 40rem;
 }
 
 .course-map-figure svg {

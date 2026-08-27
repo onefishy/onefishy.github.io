@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 1140" width="1040" height="1140" role="img" aria-labelledby="ca-title ca-desc" preserveAspectRatio="xMidYMid meet">
-  <title id="ca-title">Building collective agency</title>
+  <title id="ca-title">Building Collective Agency</title>
   <desc id="ca-desc">Twenty-nine outreach, community-building, diversity, equity, inclusion, and advocacy activities are organized along a four-stage pathway: make knowledge usable, enable participation, build community, and change institutions.</desc>
 
   <style>
@@ -48,7 +48,7 @@
     </linearGradient>
   </defs>
 
-  <text class="heading" x="35" y="38">Building collective agency</text>
+  <text class="heading" x="520" y="38" text-anchor="middle">Building Collective Agency</text>
   <line x1="145" y1="100" x2="895" y2="100" stroke="url(#ca-path-gradient)" stroke-width="2.5" opacity="0.62"/>
 
   <g aria-label="Stage 1: Make knowledge usable">

@@ -6,7 +6,7 @@ My research seeks to build assurance frameworks that empower people and societie
 
 At *the model level*, I develop validated instruments for observing AI behaviour and bounded controls for changing it. At *the task level*, I design the human-AI system as a whole, accounting for users who differ, learn, and change while the AI adapts, while maintaining human agency. At *the societal level*, I work with communities to define legitimate objectives and translate them into technical requirements and tools for governance.
 
-In my research, I use formal lenses and methodologies from mathematics, statistics, computer science, machine learning, HCI, and domain science (e.g. policy, psychology, social science, clinical science).
+In my research, I use formal lenses and methodologies from mathematics, statistics, computer science, machine learning, HCI, and domain science (e.g. policy, psychology, social science, clinical science). My work has spanned probabilistic and generative modelling, uncertainty quantification, interpretable representations, model steering and controllability, foundation-model evaluation and assurance, robustness and bias auditing, sequential decision-making and reinforcement learning, as well as applied clinical research.
 
 <figure class="diagram">
 <svg class="assurance-diagram" xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ In my research, I use formal lenses and methodologies from mathematics, statisti
 
     .assurance-diagram .heading {
       fill: var(--ink);
-      font-size: 26px;
+      font-size: 30px;
       font-weight: 500;
       text-anchor: middle;
     }
@@ -69,9 +69,9 @@ In my research, I use formal lenses and methodologies from mathematics, statisti
     .assurance-diagram .ring-label,
     .assurance-diagram .level {
       fill: var(--ink);
-      font-size: 17px;
+      font-size: 20px;
       font-weight: 500;
-      letter-spacing: 2.2px;
+      letter-spacing: 2.6px;
       transition: fill .15s ease;
     }
 
@@ -85,7 +85,7 @@ In my research, I use formal lenses and methodologies from mathematics, statisti
 
     .assurance-diagram .goal {
       fill: var(--ink);
-      font-size: 22px;
+      font-size: 26px;
       font-weight: 400;
       transition: fill .15s ease;
     }
@@ -136,36 +136,36 @@ In my research, I use formal lenses and methodologies from mathematics, statisti
 
   <g aria-label="Research goals">
     <g data-level="model" aria-label="Model: Measure AI behaviour and bound the effects of intervention">
-      <rect class="row-hit" x="560" y="135" width="580" height="80"/>
-      <line class="accent" x1="599" y1="150" x2="670" y2="150" stroke="var(--model)"/>
-      <text class="level" x="670" y="190">MODEL</text>
-      <text class="goal" x="690" y="185">
-        <tspan x="690" dy="0">Measure AI behaviour and bound</tspan>
-        <tspan x="690" dy="31">the effects of intervention.</tspan>
+      <rect class="row-hit" x="560" y="135" width="686" height="95"/>
+      <line class="accent" x1="606" y1="153" x2="690" y2="153" stroke="var(--model)"/>
+      <text class="level" x="690" y="212">MODEL</text>
+      <text class="goal" x="714" y="194">
+        <tspan x="714" dy="0">Measure AI behaviour and bound</tspan>
+        <tspan x="714" dy="37">the effects of intervention.</tspan>
       </text>
     </g>
 
-    <line class="rule" x1="590" y1="255" x2="1140" y2="255"/>
+    <line class="rule" x1="595" y1="277" x2="1163" y2="277"/>
 
     <g data-level="task" aria-label="Task: Adapt to changing users without eroding their agency or expertise">
-      <rect class="row-hit" x="560" y="260" width="580" height="80"/>
-      <line class="accent" x1="619" y1="275" x2="670" y2="275" stroke="var(--task)"/>
-      <text class="level" x="670" y="315">TASK</text>
-      <text class="goal" x="690" y="310">
-        <tspan x="690" dy="0">Adapt to changing users without</tspan>
-        <tspan x="690" dy="31">eroding their agency or expertise.</tspan>
+      <rect class="row-hit" x="560" y="283" width="686" height="95"/>
+      <line class="accent" x1="630" y1="300" x2="690" y2="300" stroke="var(--task)"/>
+      <text class="level" x="690" y="348">TASK</text>
+      <text class="goal" x="714" y="342">
+        <tspan x="714" dy="0">Adapt to changing users without</tspan>
+        <tspan x="714" dy="37">eroding their agency or expertise.</tspan>
       </text>
     </g>
 
-    <line class="rule" x1="590" y1="380" x2="1140" y2="380"/>
+    <line class="rule" x1="595" y1="425" x2="1163" y2="425"/>
 
     <g data-level="society" aria-label="Society: Translate community-defined values into technical and policy requirements">
-      <rect class="row-hit" x="560" y="385" width="580" height="80"/>
-      <line class="accent" x1="584" y1="400" x2="670" y2="400" stroke="var(--society)"/>
-      <text class="level" x="670" y="440">SOCIETY</text>
-      <text class="goal" x="690" y="435">
-        <tspan x="690" dy="0">Translate community-defined values into</tspan>
-        <tspan x="690" dy="31">technical and policy requirements.</tspan>
+      <rect class="row-hit" x="560" y="430" width="686" height="95"/>
+      <line class="accent" x1="588" y1="448" x2="690" y2="448" stroke="var(--society)"/>
+      <text class="level" x="690" y="495">SOCIETY</text>
+      <text class="goal" x="714" y="490">
+        <tspan x="714" dy="0">Translate community-defined values into</tspan>
+        <tspan x="714" dy="37">technical and policy requirements.</tspan>
       </text>
     </g>
   </g>

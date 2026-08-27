@@ -1,4 +1,4 @@
-<svg class="teaching-course-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 565 520" width="565" height="520" role="img" aria-labelledby="cd-title cd-desc" preserveAspectRatio="xMidYMid meet">
+<svg class="teaching-course-map" xmlns="http://www.w3.org/2000/svg" viewBox="-98 53 749 419" width="749" height="419" role="img" aria-labelledby="cd-title cd-desc" preserveAspectRatio="xMidYMid meet">
   <title id="cd-title">Courses across subjects and levels</title>
   <desc id="cd-desc">Thirty course entries are positioned along four subject directions and across three nested teaching levels. Hovering over a course mark shows its full title and institution.</desc>
 
@@ -82,82 +82,82 @@
     }
   </style>
 
-  <path class="cd-level-outer" d="M110 110 L410 110 L410 410 L110 410 Z"/>
-  <path class="cd-level-middle" d="M140 140 L380 140 L380 380 L140 380 Z"/>
-  <path class="cd-level-inner" d="M185 185 L335 185 L335 335 L185 335 Z"/>
+  <path class="cd-level-outer" d="M50 110 L470 110 L470 410 L50 410 Z"/>
+  <path class="cd-level-middle" d="M92 140 L428 140 L428 380 L92 380 Z"/>
+  <path class="cd-level-inner" d="M155 185 L365 185 L365 335 L155 335 Z"/>
 
   <line class="cd-axis cd-axis-math" x1="260" y1="260" x2="260" y2="100"/>
-  <line class="cd-axis cd-axis-cs" x1="260" y1="260" x2="420" y2="260"/>
+  <line class="cd-axis cd-axis-cs" x1="260" y1="260" x2="484" y2="260"/>
   <line class="cd-axis cd-axis-ml" x1="260" y1="260" x2="260" y2="420"/>
-  <line class="cd-axis cd-axis-society" x1="260" y1="260" x2="100" y2="260"/>
+  <line class="cd-axis cd-axis-society" x1="260" y1="260" x2="36" y2="260"/>
 
   <text class="cd-subject-label cd-label-math" x="260" y="90" text-anchor="middle">Math</text>
-  <text class="cd-subject-label cd-label-cs" x="430" y="250" text-anchor="start">
-    <tspan x="430" dy="0">Computer</tspan>
-    <tspan x="430" dy="24">Science</tspan>
+  <text class="cd-subject-label cd-label-cs" x="498" y="250" text-anchor="start">
+    <tspan x="498" dy="0">Computer</tspan>
+    <tspan x="498" dy="24">Science</tspan>
   </text>
   <text class="cd-subject-label cd-label-ml" x="260" y="452" text-anchor="middle">Data + ML</text>
-  <text class="cd-subject-label cd-label-society" x="90" y="267" text-anchor="end">Society</text>
+  <text class="cd-subject-label cd-label-society" x="22.0" y="267" text-anchor="end">Society</text>
 
-  <text class="cd-level-label" x="116" y="129">research</text>
-  <text class="cd-level-label" x="146" y="159">advanced</text>
-  <text class="cd-level-label" x="191" y="204">foundational</text>
+  <text class="cd-level-label" x="58.4" y="129">research</text>
+  <text class="cd-level-label" x="100.4" y="159">advanced</text>
+  <text class="cd-level-label" x="163.4" y="204">foundational</text>
 
   <g aria-label="Foundational mathematics courses">
-    <g tabindex="0" aria-label="Fundamental Math Concepts I, Saint Mary's College of California" data-course="Fundamental Math Concepts I" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="220" cy="228" r="6.5"/></g>
-    <g tabindex="0" aria-label="Finite Mathematics, Saint Mary's College of California" data-course="Finite Mathematics" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="246" cy="228" r="6.5"/></g>
-    <g tabindex="0" aria-label="The Art and Practice of Math, Saint Mary's College of California" data-course="The Art &amp; Practice of Math" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="274" cy="228" r="6.5"/></g>
-    <g tabindex="0" aria-label="Game Theory, Voting Theory and Apportionment, Saint Mary's College of California" data-course="Game Theory, Voting Theory &amp; Apportionment" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="300" cy="228" r="6.5"/></g>
-    <g tabindex="0" aria-label="Calculus I and II, Saint Mary's College of California" data-course="Calculus I &amp; II" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="236" cy="248" r="6.5"/></g>
-    <g tabindex="0" aria-label="Introduction to Calculus I and II, Wesleyan University" data-course="Introduction to Calculus I &amp; II" data-institution="Wesleyan University"><circle class="cd-course cd-course-math" cx="284" cy="248" r="6.5"/></g>
+    <g tabindex="0" aria-label="Fundamental Math Concepts I, Saint Mary's College of California" data-course="Fundamental Math Concepts I" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="204" cy="228" r="6.5"/></g>
+    <g tabindex="0" aria-label="Finite Mathematics, Saint Mary's College of California" data-course="Finite Mathematics" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="240.4" cy="228" r="6.5"/></g>
+    <g tabindex="0" aria-label="The Art and Practice of Math, Saint Mary's College of California" data-course="The Art &amp; Practice of Math" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="279.6" cy="228" r="6.5"/></g>
+    <g tabindex="0" aria-label="Game Theory, Voting Theory and Apportionment, Saint Mary's College of California" data-course="Game Theory, Voting Theory &amp; Apportionment" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="316" cy="228" r="6.5"/></g>
+    <g tabindex="0" aria-label="Calculus I and II, Saint Mary's College of California" data-course="Calculus I &amp; II" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="226.4" cy="248" r="6.5"/></g>
+    <g tabindex="0" aria-label="Introduction to Calculus I and II, Wesleyan University" data-course="Introduction to Calculus I &amp; II" data-institution="Wesleyan University"><circle class="cd-course cd-course-math" cx="293.6" cy="248" r="6.5"/></g>
   </g>
 
   <g aria-label="Advanced mathematics courses">
-    <g tabindex="0" aria-label="Mathematical Modeling, Saint Mary's College of California" data-course="Mathematical Modeling" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="225" cy="170" r="6.5"/></g>
-    <g tabindex="0" aria-label="Linear Algebra, Saint Mary's College of California" data-course="Linear Algebra" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="250" cy="170" r="6.5"/></g>
-    <g tabindex="0" aria-label="Topology, Saint Mary's College of California" data-course="Topology" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="275" cy="170" r="6.5"/></g>
-    <g tabindex="0" aria-label="Abstract Algebra I and II, Saint Mary's College of California" data-course="Abstract Algebra I &amp; II" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="300" cy="170" r="6.5"/></g>
-    <g tabindex="0" aria-label="Category Theory, Saint Mary's College of California" data-course="Category Theory" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="245" cy="152" r="6.5"/></g>
-    <g tabindex="0" aria-label="Categorified Quantum Groups and Applications, University of Göttingen" data-course="Categorified Quantum Groups and Applications" data-institution="University of Göttingen"><circle class="cd-course cd-course-math" cx="285" cy="152" r="6.5"/></g>
+    <g tabindex="0" aria-label="Mathematical Modeling, Saint Mary's College of California" data-course="Mathematical Modeling" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="211" cy="170" r="6.5"/></g>
+    <g tabindex="0" aria-label="Linear Algebra, Saint Mary's College of California" data-course="Linear Algebra" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="246" cy="170" r="6.5"/></g>
+    <g tabindex="0" aria-label="Topology, Saint Mary's College of California" data-course="Topology" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="281" cy="170" r="6.5"/></g>
+    <g tabindex="0" aria-label="Abstract Algebra I and II, Saint Mary's College of California" data-course="Abstract Algebra I &amp; II" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="316" cy="170" r="6.5"/></g>
+    <g tabindex="0" aria-label="Category Theory, Saint Mary's College of California" data-course="Category Theory" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-math" cx="239" cy="152" r="6.5"/></g>
+    <g tabindex="0" aria-label="Categorified Quantum Groups and Applications, University of Göttingen" data-course="Categorified Quantum Groups and Applications" data-institution="University of Göttingen"><circle class="cd-course cd-course-math" cx="295" cy="152" r="6.5"/></g>
   </g>
 
   <g aria-label="Foundational computer science courses">
-    <g tabindex="0" aria-label="Introduction to Programming in Python, Saint Mary's College of California" data-course="Introduction to Programming (Python)" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-cs" cx="318" cy="260" r="6.5"/></g>
+    <g tabindex="0" aria-label="Introduction to Programming in Python, Saint Mary's College of California" data-course="Introduction to Programming (Python)" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-cs" cx="341.2" cy="260" r="6.5"/></g>
   </g>
 
   <g aria-label="Advanced computer science courses">
-    <g tabindex="0" aria-label="Design and Development for iOS, Saint Mary's College of California" data-course="Design and Development for iOS" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-cs" cx="350" cy="220" r="6.5"/></g>
-    <g tabindex="0" aria-label="Introduction to Algorithms, Saint Mary's College of California" data-course="Introduction to Algorithms" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-cs" cx="370" cy="240" r="6.5"/></g>
-    <g tabindex="0" aria-label="Functional Programming in Swift, Saint Mary's College of California" data-course="Functional Programming in Swift" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-cs" cx="350" cy="260" r="6.5"/></g>
-    <g tabindex="0" aria-label="Theory of Computation and Formal Languages, Saint Mary's College of California" data-course="Theory of Computation &amp; Formal Languages" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-cs" cx="370" cy="280" r="6.5"/></g>
-    <g tabindex="0" aria-label="Advanced C++ Programming, Mary Baldwin College" data-course="Advanced C++ Programming" data-institution="Mary Baldwin College"><circle class="cd-course cd-course-cs" cx="350" cy="300" r="6.5"/></g>
+    <g tabindex="0" aria-label="Design and Development for iOS, Saint Mary's College of California" data-course="Design and Development for iOS" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-cs" cx="386" cy="220" r="6.5"/></g>
+    <g tabindex="0" aria-label="Introduction to Algorithms, Saint Mary's College of California" data-course="Introduction to Algorithms" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-cs" cx="414" cy="240" r="6.5"/></g>
+    <g tabindex="0" aria-label="Functional Programming in Swift, Saint Mary's College of California" data-course="Functional Programming in Swift" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-cs" cx="386" cy="260" r="6.5"/></g>
+    <g tabindex="0" aria-label="Theory of Computation and Formal Languages, Saint Mary's College of California" data-course="Theory of Computation &amp; Formal Languages" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-cs" cx="414" cy="280" r="6.5"/></g>
+    <g tabindex="0" aria-label="Advanced C++ Programming, Mary Baldwin College" data-course="Advanced C++ Programming" data-institution="Mary Baldwin College"><circle class="cd-course cd-course-cs" cx="386" cy="300" r="6.5"/></g>
   </g>
 
   <g aria-label="Foundational data science and machine learning courses">
-    <g tabindex="0" aria-label="Introduction to Data Science, Harvard University" data-course="Introduction to Data Science" data-institution="Harvard University"><circle class="cd-course cd-course-ml" cx="238" cy="305" r="6.5"/></g>
+    <g tabindex="0" aria-label="Introduction to Data Science, Harvard University" data-course="Introduction to Data Science" data-institution="Harvard University"><circle class="cd-course cd-course-ml" cx="229.2" cy="305" r="6.5"/></g>
     <g tabindex="0" aria-label="Introduction to Machine Learning, Harvard University" data-course="Introduction to Machine Learning" data-institution="Harvard University"><circle class="cd-course cd-course-ml" cx="260" cy="320" r="6.5"/></g>
-    <g tabindex="0" aria-label="Data Science Workshop, University of Rwanda" data-course="Data Science Workshop" data-institution="University of Rwanda"><circle class="cd-course cd-course-ml" cx="286" cy="305" r="6.5"/></g>
+    <g tabindex="0" aria-label="Data Science Workshop, University of Rwanda" data-course="Data Science Workshop" data-institution="University of Rwanda"><circle class="cd-course cd-course-ml" cx="296.4" cy="305" r="6.5"/></g>
   </g>
 
   <g aria-label="Advanced data science and machine learning courses">
-    <g tabindex="0" aria-label="Advanced Stochastic Optimization, Harvard University" data-course="Advanced Stochastic Optimization" data-institution="Harvard University"><circle class="cd-course cd-course-ml" cx="245" cy="350" r="6.5"/></g>
-    <g tabindex="0" aria-label="Machine Learning and Computational Statistics, University of Rwanda" data-course="Machine Learning and Computational Statistics" data-institution="University of Rwanda"><circle class="cd-course cd-course-ml" cx="280" cy="370" r="6.5"/></g>
+    <g tabindex="0" aria-label="Advanced Stochastic Optimization, Harvard University" data-course="Advanced Stochastic Optimization" data-institution="Harvard University"><circle class="cd-course cd-course-ml" cx="239" cy="350" r="6.5"/></g>
+    <g tabindex="0" aria-label="Machine Learning and Computational Statistics, University of Rwanda" data-course="Machine Learning and Computational Statistics" data-institution="University of Rwanda"><circle class="cd-course cd-course-ml" cx="288" cy="370" r="6.5"/></g>
   </g>
 
   <g aria-label="Research data science and machine learning courses">
-    <g tabindex="0" aria-label="Computational Science and Engineering Capstone, Harvard University" data-course="Computational Science and Engineering Capstone" data-institution="Harvard University"><circle class="cd-course cd-course-ml" cx="235" cy="400" r="6.5"/></g>
+    <g tabindex="0" aria-label="Computational Science and Engineering Capstone, Harvard University" data-course="Computational Science and Engineering Capstone" data-institution="Harvard University"><circle class="cd-course cd-course-ml" cx="225" cy="400" r="6.5"/></g>
     <g tabindex="0" aria-label="Undergraduate Research in Machine Learning, Harvard University" data-course="Undergraduate Research in Machine Learning" data-institution="Harvard University"><circle class="cd-course cd-course-ml" cx="260" cy="400" r="6.5"/></g>
-    <g tabindex="0" aria-label="Graduate Research in Machine Learning, Harvard University" data-course="Graduate Research in Machine Learning" data-institution="Harvard University"><circle class="cd-course cd-course-ml" cx="285" cy="400" r="6.5"/></g>
+    <g tabindex="0" aria-label="Graduate Research in Machine Learning, Harvard University" data-course="Graduate Research in Machine Learning" data-institution="Harvard University"><circle class="cd-course cd-course-ml" cx="295" cy="400" r="6.5"/></g>
   </g>
 
   <g aria-label="Foundational society courses">
-    <g tabindex="0" aria-label="Collegiate Seminar I, Saint Mary's College of California" data-course="Collegiate Seminar I" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-society" cx="202" cy="245" r="6.5"/></g>
-    <g tabindex="0" aria-label="Modern China, Mary Baldwin College" data-course="Modern China" data-institution="Mary Baldwin College"><circle class="cd-course cd-course-society" cx="202" cy="278" r="6.5"/></g>
+    <g tabindex="0" aria-label="Collegiate Seminar I, Saint Mary's College of California" data-course="Collegiate Seminar I" data-institution="Saint Mary's College of California"><circle class="cd-course cd-course-society" cx="178.8" cy="245" r="6.5"/></g>
+    <g tabindex="0" aria-label="Modern China, Mary Baldwin College" data-course="Modern China" data-institution="Mary Baldwin College"><circle class="cd-course cd-course-society" cx="178.8" cy="278" r="6.5"/></g>
   </g>
 
   <g aria-label="Advanced society and pedagogy courses">
-    <g tabindex="0" aria-label="Diversity, Inclusion and Leadership in Tech, Harvard University" data-course="Diversity, Inclusion and Leadership in Tech" data-institution="Harvard University"><circle class="cd-course cd-course-society" cx="165" cy="245" r="6.5"/></g>
-    <g tabindex="0" aria-label="Graduate Pedagogy, Wesleyan University" data-course="Graduate Pedagogy" data-institution="Wesleyan University"><circle class="cd-course cd-course-society" cx="150" cy="280" r="6.5"/></g>
+    <g tabindex="0" aria-label="Diversity, Inclusion and Leadership in Tech, Harvard University" data-course="Diversity, Inclusion and Leadership in Tech" data-institution="Harvard University"><circle class="cd-course cd-course-society" cx="127" cy="245" r="6.5"/></g>
+    <g tabindex="0" aria-label="Graduate Pedagogy, Wesleyan University" data-course="Graduate Pedagogy" data-institution="Wesleyan University"><circle class="cd-course cd-course-society" cx="106" cy="280" r="6.5"/></g>
   </g>
 
   <script><![CDATA[
