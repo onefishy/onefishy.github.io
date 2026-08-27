@@ -2,7 +2,7 @@
 anchor: teaching
 ---
 
-I designed and taught my first course, Advanced C++ Programming, at the age 16, during my junior year at Mary Baldwin College. Since then, I've designed and taught over 30 courses in Mathematics, Computer Science, Data Science and Machine Learning across undergraduate and graduate curricula, at six very different institutions of higher learning.
+I designed and taught my first course, Advanced C++ Programming, at the age 16, during my junior year at Mary Baldwin College. Since then, I've ***designed and taught over 30 courses*** in Mathematics, Computer Science, Data Science and Machine Learning across undergraduate and graduate curricula, at six very different institutions of higher learning.
 
 <figure class="course-map-figure">
 <svg class="teaching-course-map" xmlns="http://www.w3.org/2000/svg" viewBox="-98 53 749 419" width="749" height="419" role="img" aria-label="Courses across subjects and levels" aria-describedby="cd-desc" preserveAspectRatio="xMidYMid meet">
@@ -222,7 +222,7 @@ I designed and taught my first course, Advanced C++ Programming, at the age 16, 
   <div class="course-tooltip-inst"></div>
 </div>
 
-The aim of my teaching is to grow students in intellectual empowerment, independence and agency. A student has truly learned a method when they can explain what question it answers, which assumptions make the answer valid, what evidence supports its use, and, crucially, where it can fail. So, my teaching follows a consistent sequence: motivate a method with a problem that makes it necessary, develop intuition and formalism together, and then ask students to test the method in an open-ended setting.
+The aim of my teaching is to ***grow students in intellectual empowerment, independence and agency***. A student has truly learned a method when they can explain what question it answers, which assumptions make the answer valid, what evidence supports its use, and, crucially, where it can fail. So, my teaching follows a consistent sequence: ***motivate*** a method with a problem that makes it necessary, develop ***intuition and formalism*** together, and then ask students to test the method in an ***open-ended setting***.
 
 <figure class="diagram">
 <svg class="teaching-diagram" xmlns="http://www.w3.org/2000/svg"
@@ -326,6 +326,6 @@ The aim of my teaching is to grow students in intellectual empowerment, independ
 </svg>
 </figure>
 
-Inclusive education requires more than making the same content available to every student. Students enter the classroom through systems that have already shaped their preparation and sense of themselves as learners. Identity and lived experience are not "personal" factors separate from academic development. They affect who is heard, who receives informal guidance, who feels safe admitting confusion, and who has time to pursue research or unpaid opportunities. As an educator, I hold myself accountable to acknowledge these conditions, address inequities within my control, and honour students' narratives of their own lives.
+Inclusive education requires more than making the same content available to every student. Students enter the classroom through systems that have already shaped their preparation and sense of themselves as learners. ***Identity and lived experience are not "personal" factors separate from academic development.*** They affect who is heard, who receives informal guidance, who feels safe admitting confusion, and who has time to pursue research or unpaid opportunities. As an educator, I hold myself accountable to ***acknowledge*** these conditions, ***address*** inequities within my control, and ***honour*** students' narratives of their own lives.
 
 

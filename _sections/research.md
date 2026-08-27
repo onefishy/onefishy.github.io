@@ -2,11 +2,11 @@
 anchor: research
 ---
 
-My research seeks to build assurance frameworks that empower people and societies to retain meaningful control over AI systems, so that these systems strengthen, rather than displace, human judgement, expertise and creativity.
+My research seeks to ***build assurance frameworks*** that empower people and societies to ***retain meaningful control*** over AI systems, so that these systems strengthen, rather than displace, human judgement, expertise and creativity.
 
-At *the model level*, I develop validated instruments for observing AI behaviour and bounded controls for changing it. At *the task level*, I design the human-AI system as a whole, accounting for users who differ, learn, and change while the AI adapts, while maintaining human agency. At *the societal level*, I work with communities to define legitimate objectives and translate them into technical requirements and tools for governance.
+At ***the model level***, I develop validated instruments for observing AI behaviour and bounded controls for changing it. At ***the task level***, I design the human-AI system as a whole, accounting for users who differ, learn, and change while the AI adapts, while maintaining human agency. At ***the societal level***, I work with communities to define legitimate objectives and translate them into technical requirements and tools for governance.
 
-In my research, I use formal lenses and methodologies from mathematics, statistics, computer science, machine learning, HCI, and domain science (e.g. policy, psychology, social science, clinical science). My work has spanned probabilistic and generative modelling, uncertainty quantification, interpretable representations, model steering and controllability, foundation-model evaluation and assurance, robustness and bias auditing, sequential decision-making and reinforcement learning, as well as applied clinical research.
+In my research, I use ***formal lenses and methodologies*** from mathematics, statistics, computer science, machine learning, HCI, and domain science (e.g. policy, psychology, social science, clinical science). My work has spanned probabilistic and generative modelling, uncertainty quantification, interpretable representations, model steering and controllability, foundation-model evaluation and assurance, robustness and bias auditing, sequential decision-making and reinforcement learning, as well as applied clinical research.
 
 <figure class="diagram">
 <svg class="assurance-diagram" xmlns="http://www.w3.org/2000/svg"
