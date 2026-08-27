@@ -2,33 +2,263 @@
 anchor: research
 ---
 
-I am generally interested in unfolding consequences of design choices in machine learning pipelines (e.g. model assumptions, inductive biases, inference, optimization and model explanations) for social-technical decision making systems. I am also broadly interested in issues of AI safety, ethics and regulation. My interests include uncertainty quantification, deep generative models, deep Bayesian models, approximate inference, user modeling in RL, explanable AI and HCI.
+My research seeks to build assurance frameworks that empower people and societies to retain meaningful control over AI systems, so that these systems strengthen, rather than displace, human judgement, expertise and creativity.
 
-Since 2024, I've been co-leading an [interdisciplinary research initiative](https://dtak.github.io/Negotiation/) to understand the impact of AI on frontline humanitarian negotiation. This work focuses both on machine learning and HCI.
+At *the model level*, I develop validated instruments for observing AI behaviour and bounded controls for changing it. At *the task level*, I design the human-AI system as a whole, accounting for users who differ, learn, and change while the AI adapts, while maintaining human agency. At *the societal level*, I work with communities to define legitimate objectives and translate them into technical requirements and tools for governance.
 
-#### Recent Papers
-More publications can be found at my [Google Scholar](https://scholar.google.com/citations?hl=en&user=4mmuvFgAAAAJ&view_op=list_works&gmla=AJsN-F5bL3dw5jD4ejRi0SQ1tJXKMOrJkd9TtZbRMr24y-EezVDMPWVHzUwilBE7qF37B1QmCs7fz05isA26H-4MVgtEUf3q4_IU2HZpxC53Tat-3o4fnog).
+In my research, I use formal lenses and methodologies from mathematics, statistics, computer science, machine learning, HCI, and domain science (e.g. policy, psychology, social science, clinical science).
 
+<figure class="diagram">
+<svg class="assurance-diagram" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 600"
+     width="1200"
+     height="600"
+     role="img"
+     aria-labelledby="diagram-title diagram-description"
+     preserveAspectRatio="xMidYMid meet">
+  <title id="diagram-title">Assurance Framework for Human-Centered AI</title>
+  <desc id="diagram-description">Three nested research levels. The model sits inside the task, and both sit inside society. Each level is paired with its research goal. Hover a ring or a level to highlight it.</desc>
 
-0. Ian M. Moore, Eura Nofshin, Siddharth Swaroop, Susan Murphy, Finale Doshi-Velez, Weiwei Pan, [When and Why Hyperbolic Discounting Matters for Reinforcement Learning Interventions](https://openreview.net/forum?id=kbFxSZUIwZ&referrer=%5Bthe%20profile%20of%20Susan%20Murphy%5D(%2Fprofile%3Fid%3D~Susan_Murphy1)), RLC, 2025
-0. Hiwot Belay Tadesse, Alihan Hüyük, Yaniv Yacoby, Weiwei Pan, Finale Doshi-Velez, [Directly Optimizing Explanations for Desired Properties](https://arxiv.org/abs/2410.23880), UAI, 2025.
-1. Kirsten N. Morehouse, Siddharth Swaroop, Weiwei Pan, [Rethinking LLM Bias Probing Using Lessons from the Social Sciences](https://arxiv.org/abs/2503.00093), ICML (Position Track), 2025.
-2. Philipp Arens, D. Adam Quirk, Weiwei Pan, Yaniv Yacoby, Finale Doshi-Velez, Connor J. Walsh, [Preference-based assistance optimization for lifting and lowering with a soft back exosuit](https://www.science.org/doi/10.1126/sciadv.adu2099), Science Advances, 2025.
-3. Salma Abdel Magid, Weiwei Pan, Simon Warchol, Grace Guo, Junsik Kim, Mahia Rahman, Hanspeter Pfister, [Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models](https://arxiv.org/abs/2410.04634), TMLR, 2025.
-4. Zilin Ma, Yiyang Mei, Claude Bruderlein, Krzysztof Z. Gajos, Weiwei Pan, ["ChatGPT, Don't Tell Me What to Do": Designing AI for Context Analysis in Humanitarian Frontline Negotiations](https://arxiv.org/abs/2410.09139), CHI Work, 2025.
-5. Jonas B Raedler, Siddharth Swaroop, Weiwei Pan, [AI Companions Are Not The Solution To Loneliness: Design Choices And Their Drawbacks](), ICLR Workshop on Building Trust in Language Models, 2025.
-6. Sudhan Chitgopkar, Noah Dohrmann, Stephanie Monson, Jimmy Mendez, Finale Doshi-Velez, Weiwei Pan, [Accuracy Isn’t Everything: Understanding the Desiderata of AI Tools in Legal-Financial Settings](), Neurips Workshop on Behavioral Machine Learning, 2024.
-7. Soline Boussard, Susannah Cheng Su, Helen Zhao, Siddharth Swaroop, Weiwei Pan, [Understanding Model Bias Requires Systematic Probing Across Tasks](), Neurips Workshop on Socially Responsible Language Modelling Research, 2024.
-8. Julia Smakman, Lisa Soder, Connor Dunlop, Siddharth Swaroop, Weiwei Pan, [AI Agents & Liability – Mapping Insights from ML and HCI Research to Policy](), Neurips Workshop on Socially Responsible Language Modelling Research, 2024.
-9. Julia Smakman, Lisa Soder, Connor Dunlop, Siddharth Swaroop, Weiwei Pan, [An Autonomy-Based Classification: Liability in the Age of AI Agents](), Neurips Workshop on Regulatable ML, 2024.
-10. S.B. Wang, R.D.I. Van Genugten, Y Yacoby, W Pan, K.H. Bentley, S.A. Bird, R.J. Buonopane, A. Christie, M. Daniel, A. Haim, L. Follet, R.G. Fortgang, F. Kelly-Brunyak, E.M. Kleiman, A.J. Millner, O. Obi-Obasi, J.P. Onnela, N. Ramlal, J.R. Ricard, J.W. Smoller, T. Tambedou, K.L. Zuromski, M.K. Nock, [Idiographic prediction of suicidal thoughts: Building personalized machine learning models with real-time monitoring data](https://links.springernature.com/f/a/33beh0U8tFU0eTR2LjcIJQ~~/AABE5gA~/RgRo_LwxP0SjaHR0cHM6Ly93d3cubmF0dXJlLmNvbS9hcnRpY2xlcy9zNDQyMjAtMDI0LTAwMzM1LXc_dXRtX3NvdXJjZT1yY3RfY29uZ3JhdGVtYWlsdCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1ub25vYV8yMDI0MTAyNCZ1dG1fY29udGVudD0xMC4xMDM4L3M0NDIyMC0wMjQtMDAzMzUtd1cDc3BjQgpnEjE3GmfNrVPkUhVzaGlybGV5LndhbmdAeWFsZS5lZHVYBAAAByw~), Nature Mental Health, 2024.  
-11. Esther Brown, Shivam Raval, Alex Rojas, Jiayu Yao, Sonali Parbhoo, Leo A Celi, Siddharth Swaroop, Weiwei Pan, Finale Doshi-Velez, [Where do doctors disagree? Characterizing  Decision Points for Safe Reinforcement Learning in Choosing Vasopressor Treatment](), American Medical Informatics Association (AMIA), 2024. 
-12. Yaniv Yacoby, Weiwei Pan, Finale Doshi-Velez, [Towards Model-Agnostic Posterior Approximation for Fast and Accurate Variational Autoencoders](https://arxiv.org/pdf/2403.08941), Advances in Approximate Bayesian Inference (non-Archival), 2024.
-13. Zilin Ma, Susannah Cheng Su, Nathan Zhao, Linn Bieske, Blake Bullwinkel, Jinglun Gao, Gekai Liao, Siyao Li, Ziqing Luo, Boxiang Wang, Zihan Wen, Yanrui Yang, Yanyi Zhang, Claude Bruderlein, Weiwei Pan, [Using Large Language Models for Humanitarian Frontline Negotiation: Opportunities and Considerations](https://arxiv.org/pdf/2405.20195), ICML Workshop on NextGenAISafety, 2024.
-14. Eura Nofshin, Esther Brown, Brian Lim, Weiwei Pan, Finale Doshi-Velez, [A Sim2Real Approach for Identifying Task-Relevant Properties in Interpretable Machine Learning](https://arxiv.org/pdf/2406.00116), ICML Workshop on NextGenAISafety, 2024.
-15. Hiwot Belay Tadesse, Weiwei Pan, Finale Doshi-Velez, [Optimizing Machine Learning Explanations for Properties](https://openreview.net/pdf?id=yOBqCJ1hel), ICML Workshop on Humans, Algorithmic Decision-Making and Society: Modeling Interactions and Impact, 2024.
-16. Kirsten Morehouse, Weiwei Pan, Juan Manuel Contreras, Mahzarin R. Banaji, [Bias Transmission in Large Language Models: Evidence from Gender-Occupation Bias in GPT-4](https://openreview.net/pdf?id=Fg6qZ28Jym), ICML Workshop on NextGenAISafety, 2024.
-17. David Berthiaume, Yuan Tang, Chau Nguyen, Siyu Gai, Emilia Mazzolenis, Weiwei Pan, [Synthetic Data-driven Prediction of Height for Childhood Malnutrition](https://openreview.net/pdf?id=rTWqnFiKrv), ICML Workshop on AI4Science, 2024.
-18. Paul Nitschke, Lars Lien Ankile, Eura Shin, Siddharth Swaroop, Finale Doshi-Velez, Weiwei Pan, [AMBER: An Entropy Maximizing Environment Design Algorithm for Inverse Reinforcement Learning](https://openreview.net/pdf?id=diGbG37AxC), ICML Workshop on Models of Human Feedback for AI Alignment, 2024.
-19. Eura Nofshin, Siddharth Swaroop, Weiwei Pan, Susan Murphy, Finale Doshi-Velez, [Reinforcement Learning Interventions on Boundedly Rational Human Agents in Frictionful Tasks](https://arxiv.org/pdf/2401.14923), International Conference on Autonomous Agents and Multiagent Systems, 2024.
-20. Jiayu Yao, Weiwei Pan, Finale Doshi-Velez, Barbara E Engelhardt, [Inverse Reinforcement Learning with Multiple Planning Horizons](), Reinforcement Learning Conference, 2024.
+  <style>
+    .assurance-diagram {
+      --ink: #4c473f;
+      --ink-strong: #332e28;
+      --rule: #d9dee7;
+      --model: #2563eb;
+      --task: #0f8a7a;
+      --society: #7c4dcc;
+    }
+
+    .assurance-diagram .heading,
+    .assurance-diagram .ring-label,
+    .assurance-diagram .level,
+    .assurance-diagram .goal {
+      font-family: "EB Garamond", Garamond, "Times New Roman", serif;
+    }
+
+    .assurance-diagram .heading {
+      fill: var(--ink);
+      font-size: 26px;
+      font-weight: 500;
+      text-anchor: middle;
+    }
+
+    .assurance-diagram .ring {
+      stroke-width: 2;
+      cursor: pointer;
+    }
+
+    .assurance-diagram .society-ring {
+      fill: var(--society);
+      fill-opacity: 0.07;
+      stroke: var(--society);
+    }
+
+    .assurance-diagram .task-ring {
+      fill: var(--task);
+      fill-opacity: 0.09;
+      stroke: var(--task);
+    }
+
+    .assurance-diagram .model-ring {
+      fill: var(--model);
+      fill-opacity: 0.13;
+      stroke: var(--model);
+    }
+
+    .assurance-diagram .ring-label,
+    .assurance-diagram .level {
+      fill: var(--ink);
+      font-size: 17px;
+      font-weight: 500;
+      letter-spacing: 2.2px;
+      transition: fill .15s ease;
+    }
+
+    .assurance-diagram .ring-label {
+      text-anchor: middle;
+    }
+
+    .assurance-diagram .level {
+      text-anchor: end;
+    }
+
+    .assurance-diagram .goal {
+      fill: var(--ink);
+      font-size: 22px;
+      font-weight: 400;
+      transition: fill .15s ease;
+    }
+
+    .assurance-diagram .core-dot {
+      fill: var(--model);
+    }
+
+    .assurance-diagram .rule {
+      stroke: var(--rule);
+      stroke-width: 1;
+    }
+
+    .assurance-diagram .accent {
+      stroke-width: 3;
+    }
+
+    .assurance-diagram .row-hit {
+      fill: transparent;
+      cursor: pointer;
+    }
+
+    .assurance-diagram [data-level].is-active .ring-label,
+    .assurance-diagram [data-level].is-active .level,
+    .assurance-diagram [data-level].is-active .goal {
+      font-weight: 700;
+      fill: var(--ink-strong);
+    }
+  </style>
+
+  <text class="heading" x="600" y="58">Assurance Framework for Human-Centered AI</text>
+
+  <g aria-label="Nested research levels">
+    <g data-level="society">
+      <circle class="ring society-ring" cx="285" cy="327" r="220"/>
+      <text class="ring-label" x="285" y="153">SOCIETY</text>
+    </g>
+    <g data-level="task">
+      <circle class="ring task-ring" cx="285" cy="347" r="146"/>
+      <text class="ring-label" x="285" y="252">TASK</text>
+    </g>
+    <g data-level="model">
+      <circle class="ring model-ring" cx="285" cy="365" r="76"/>
+      <circle class="core-dot" cx="285" cy="339" r="5"/>
+      <text class="ring-label" x="285" y="376">MODEL</text>
+    </g>
+  </g>
+
+  <g aria-label="Research goals">
+    <g data-level="model" aria-label="Model: Measure AI behaviour and bound the effects of intervention">
+      <rect class="row-hit" x="560" y="135" width="580" height="80"/>
+      <line class="accent" x1="599" y1="150" x2="670" y2="150" stroke="var(--model)"/>
+      <text class="level" x="670" y="190">MODEL</text>
+      <text class="goal" x="690" y="185">
+        <tspan x="690" dy="0">Measure AI behaviour and bound</tspan>
+        <tspan x="690" dy="31">the effects of intervention.</tspan>
+      </text>
+    </g>
+
+    <line class="rule" x1="590" y1="255" x2="1140" y2="255"/>
+
+    <g data-level="task" aria-label="Task: Adapt to changing users without eroding their agency or expertise">
+      <rect class="row-hit" x="560" y="260" width="580" height="80"/>
+      <line class="accent" x1="619" y1="275" x2="670" y2="275" stroke="var(--task)"/>
+      <text class="level" x="670" y="315">TASK</text>
+      <text class="goal" x="690" y="310">
+        <tspan x="690" dy="0">Adapt to changing users without</tspan>
+        <tspan x="690" dy="31">eroding their agency or expertise.</tspan>
+      </text>
+    </g>
+
+    <line class="rule" x1="590" y1="380" x2="1140" y2="380"/>
+
+    <g data-level="society" aria-label="Society: Translate community-defined values into technical and policy requirements">
+      <rect class="row-hit" x="560" y="385" width="580" height="80"/>
+      <line class="accent" x1="584" y1="400" x2="670" y2="400" stroke="var(--society)"/>
+      <text class="level" x="670" y="440">SOCIETY</text>
+      <text class="goal" x="690" y="435">
+        <tspan x="690" dy="0">Translate community-defined values into</tspan>
+        <tspan x="690" dy="31">technical and policy requirements.</tspan>
+      </text>
+    </g>
+  </g>
+
+  <script><![CDATA[
+    (function () {
+      var svg = document.currentScript.closest('svg');
+      var groups = {};
+      svg.querySelectorAll('[data-level]').forEach(function (el) {
+        var level = el.getAttribute('data-level');
+        (groups[level] = groups[level] || []).push(el);
+      });
+      function setActive(level, active) {
+        (groups[level] || []).forEach(function (el) {
+          el.classList.toggle('is-active', active);
+        });
+      }
+      Object.keys(groups).forEach(function (level) {
+        groups[level].forEach(function (el) {
+          el.addEventListener('mouseenter', function () { setActive(level, true); });
+          el.addEventListener('mouseleave', function () { setActive(level, false); });
+        });
+      });
+
+      var sources = {
+        model: { file: '/assets/images/model-level-research-map.svg', title: 'Model-level assurance research map' },
+        task: { file: '/assets/images/task-level-research-map.svg', title: 'Task-level assurance research map' },
+        society: { file: '/assets/images/societal-level-research-map.svg', title: 'Societal-level assurance research map' }
+      };
+      var cache = {};
+      var openLevel = null;
+
+      // The #research-detail panel lives after this <script> in the document,
+      // so it doesn't exist yet when this inline script runs during parsing.
+      // Look it up lazily (inside the functions) rather than caching it now.
+      function closeDetail() {
+        var detail = document.getElementById('research-detail');
+        if (!detail) return;
+        detail.hidden = true;
+        openLevel = null;
+      }
+
+      function openDetail(level) {
+        var detail = document.getElementById('research-detail');
+        var detailTitle = document.getElementById('research-detail-title');
+        var detailContent = document.getElementById('research-detail-content');
+        if (!detail || !sources[level]) return;
+        detailTitle.textContent = sources[level].title;
+        detail.hidden = false;
+        openLevel = level;
+        if (cache[level]) {
+          detailContent.innerHTML = cache[level];
+        } else {
+          detailContent.innerHTML = '<p style="padding:1em;">Loading…</p>';
+          fetch(sources[level].file)
+            .then(function (r) { return r.text(); })
+            .then(function (svgText) {
+              cache[level] = svgText;
+              if (openLevel === level) detailContent.innerHTML = svgText;
+            })
+            .catch(function () {
+              detailContent.innerHTML = '<p style="padding:1em;">Could not load chart.</p>';
+            });
+        }
+        detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
+      Object.keys(groups).forEach(function (level) {
+        groups[level].forEach(function (el) {
+          el.addEventListener('click', function () {
+            if (openLevel === level) {
+              closeDetail();
+            } else {
+              openDetail(level);
+            }
+          });
+        });
+      });
+
+      document.addEventListener('click', function (e) {
+        if (e.target && e.target.id === 'research-detail-close') {
+          closeDetail();
+        }
+      });
+    })();
+  ]]></script>
+</svg>
+</figure>
+
+<div class="research-detail" id="research-detail" hidden>
+  <div class="research-detail-header">
+    <span class="research-detail-title" id="research-detail-title"></span>
+    <button type="button" class="research-detail-close" id="research-detail-close" aria-label="Close detail chart">&times;</button>
+  </div>
+  <div class="research-detail-content" id="research-detail-content"></div>
+</div>

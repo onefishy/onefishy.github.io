@@ -1,0 +1,179 @@
+<svg class="societal-level-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1170" width="1400" height="1170" role="img" aria-labelledby="title desc">
+  <title id="title">Societal-level assurance research map</title>
+  <desc id="desc">Eighteen linked publications organized by four societal-level questions: engage relevant communities, translate values into requirements, assess benefits and risks, and govern systems through rules and evidence.</desc>
+  <style>
+    .societal-level-map {
+      --ink: #18212f;
+      --muted: #5b6775;
+      --rule: #d9dee7;
+      --link-rule: #9aa5b3;
+      --engage: #2563eb;
+      --translate: #0f8a7a;
+      --assess: #7c4dcc;
+      --govern: #d97706;
+      font-family: "EB Garamond", Garamond, "Times New Roman", serif;
+    }
+    .title { fill: var(--ink); font-size: 29px; font-weight: 500; }
+    .note, .axis-label, .question, .insight { fill: var(--muted); }
+    .note { font-size: 15px; }
+    .axis-label { font-size: 14px; }
+    .step { fill: var(--ink); font-size: 15px; font-weight: 500; letter-spacing: 1.5px; }
+    .question { font-size: 13px; }
+    .group { fill: var(--muted); font-size: 14px; font-weight: 500; letter-spacing: 1.25px; }
+    .work { fill: var(--ink); font-size: 16px; }
+    .citation { font-weight: 500; }
+    .guide, .group-rule { stroke: var(--rule); stroke-width: 1; vector-effect: non-scaling-stroke; }
+    .group-rule { opacity: 0.95; }
+    .guide { opacity: 0.72; }
+    .head-rule { stroke-width: 4; vector-effect: non-scaling-stroke; }
+    .engage { fill: var(--engage); stroke: var(--engage); }
+    .translate { fill: var(--translate); stroke: var(--translate); }
+    .assess { fill: var(--assess); stroke: var(--assess); }
+    .govern { fill: var(--govern); stroke: var(--govern); }
+    .dot { stroke: none; }
+    .work-link { text-decoration: underline; text-decoration-color: var(--link-rule); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .work-link:hover { text-decoration-color: var(--ink); }
+  </style>
+
+  <text class="title" x="60" y="58">Societal-level assurance</text>
+  <text class="note" x="60" y="90">Multiple dots mark works that answer more than one assurance question.</text>
+  <text class="axis-label" x="60" y="160">Works and their societal-level insights</text>
+
+  <line class="head-rule engage" x1="785" y1="126" x2="845" y2="126" />
+  <text class="step" x="815" y="153" text-anchor="middle">ENGAGE</text>
+  <text class="question" x="815" y="178" text-anchor="middle"><tspan x="815">Whose knowledge</tspan><tspan x="815" dy="18">defines the problem?</tspan></text>
+
+  <line class="head-rule translate" x1="945" y1="126" x2="1005" y2="126" />
+  <text class="step" x="975" y="153" text-anchor="middle">TRANSLATE</text>
+  <text class="question" x="975" y="178" text-anchor="middle"><tspan x="975">How do values become</tspan><tspan x="975" dy="18">requirements?</tspan></text>
+
+  <line class="head-rule assess" x1="1105" y1="126" x2="1165" y2="126" />
+  <text class="step" x="1135" y="153" text-anchor="middle">ASSESS</text>
+  <text class="question" x="1135" y="178" text-anchor="middle"><tspan x="1135">Who benefits and</tspan><tspan x="1135" dy="18">bears risk?</tspan></text>
+
+  <line class="head-rule govern" x1="1265" y1="126" x2="1325" y2="126" />
+  <text class="step" x="1295" y="153" text-anchor="middle">GOVERN</text>
+  <text class="question" x="1295" y="178" text-anchor="middle"><tspan x="1295">What rules and</tspan><tspan x="1295" dy="18">evidence are needed?</tspan></text>
+
+  <line class="guide" x1="815" y1="218" x2="815" y2="1130" />
+  <line class="guide" x1="975" y1="218" x2="975" y2="1130" />
+  <line class="guide" x1="1135" y1="218" x2="1135" y2="1130" />
+  <line class="guide" x1="1295" y1="218" x2="1295" y2="1130" />
+
+  <line class="group-rule" x1="60" y1="230" x2="1340" y2="230" />
+  <text class="group" x="60" y="256">COMMUNITIES AND PROFESSIONAL PRACTICE</text>
+
+  <a class="work-link" href="https://arxiv.org/abs/2405.20195" target="_blank" rel="noopener noreferrer" aria-label="Using Large Language Models for Humanitarian Frontline Negotiation: Opportunities and Considerations">
+    <title>Using Large Language Models for Humanitarian Frontline Negotiation: Opportunities and Considerations</title>
+    <text class="work" x="60" y="294"><tspan class="citation">Ma et al. &#8217;24</tspan><tspan class="insight"> &#8212; practitioner needs, risks, and adoption barriers</tspan></text>
+  </a>
+  <circle class="dot engage" cx="815" cy="288" r="6" /><circle class="dot translate" cx="975" cy="288" r="6" /><circle class="dot assess" cx="1135" cy="288" r="6" />
+
+  <a class="work-link" href="https://doi.org/10.1145/3729176.3729194" target="_blank" rel="noopener noreferrer" aria-label="ChatGPT, Don&#8217;t Tell Me What to Do: Designing AI for Context Analysis in Humanitarian Frontline Negotiations">
+    <title>ChatGPT, Don&#8217;t Tell Me What to Do: Designing AI for Context Analysis in Humanitarian Frontline Negotiations</title>
+    <text class="work" x="60" y="336"><tspan class="citation">Ma et al. &#8217;25</tspan><tspan class="insight"> &#8212; co-design shifted the goal from recommendation to analysis</tspan></text>
+  </a>
+  <circle class="dot engage" cx="815" cy="330" r="6" /><circle class="dot translate" cx="975" cy="330" r="6" /><circle class="dot assess" cx="1135" cy="330" r="6" /><circle class="dot govern" cx="1295" cy="330" r="6" />
+
+  <a class="work-link" href="https://neurips.cc/virtual/2024/102116" target="_blank" rel="noopener noreferrer" aria-label="Accuracy Isn&#8217;t Everything: Understanding the Desiderata of AI Tools in Legal-Financial Settings">
+    <title>Accuracy Isn&#8217;t Everything: Understanding the Desiderata of AI Tools in Legal-Financial Settings</title>
+    <text class="work" x="60" y="378"><tspan class="citation">Chitgopkar et al. &#8217;24</tspan><tspan class="insight"> &#8212; professional workflow defines system desiderata</tspan></text>
+  </a>
+  <circle class="dot engage" cx="815" cy="372" r="6" /><circle class="dot translate" cx="975" cy="372" r="6" /><circle class="dot assess" cx="1135" cy="372" r="6" />
+
+  <a class="work-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12099420/" target="_blank" rel="noopener noreferrer" aria-label="Where Do Doctors Disagree? Characterizing Decision Points for Safe Reinforcement Learning in Choosing Vasopressor Treatment">
+    <title>Where Do Doctors Disagree? Characterizing Decision Points for Safe Reinforcement Learning in Choosing Vasopressor Treatment</title>
+    <text class="work" x="60" y="420"><tspan class="citation">Brown et al. &#8217;25</tspan><tspan class="insight"> &#8212; clinical disagreement locates support-worthy decisions</tspan></text>
+  </a>
+  <circle class="dot engage" cx="815" cy="414" r="6" /><circle class="dot translate" cx="975" cy="414" r="6" /><circle class="dot assess" cx="1135" cy="414" r="6" />
+
+  <a class="work-link" href="https://doi.org/10.1017/S1049023X25001025" target="_blank" rel="noopener noreferrer" aria-label="Crowd Simulation Models for Enhanced Mass-Gathering Medical Response: A Practical Application">
+    <title>Crowd Simulation Models for Enhanced Mass-Gathering Medical Response: A Practical Application</title>
+    <text class="work" x="60" y="462"><tspan class="citation">Mathew et al. &#8217;25</tspan><tspan class="insight"> &#8212; emergency traces validate response-planning models</tspan></text>
+  </a>
+  <circle class="dot engage" cx="815" cy="456" r="6" /><circle class="dot translate" cx="975" cy="456" r="6" /><circle class="dot assess" cx="1135" cy="456" r="6" />
+
+  <line class="group-rule" x1="60" y1="490" x2="1340" y2="490" />
+  <text class="group" x="60" y="516">SOCIAL EFFECTS AND PUBLIC-INTEREST DEPLOYMENT</text>
+
+  <a class="work-link" href="https://neurips.cc/virtual/2024/103333" target="_blank" rel="noopener noreferrer" aria-label="Understanding Model Bias Requires Systematic Probing Across Tasks">
+    <title>Understanding Model Bias Requires Systematic Probing Across Tasks</title>
+    <text class="work" x="60" y="554"><tspan class="citation">Boussard et al. &#8217;24</tspan><tspan class="insight"> &#8212; audit conclusions depend on task and prompt</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="548" r="6" /><circle class="dot assess" cx="1135" cy="548" r="6" /><circle class="dot govern" cx="1295" cy="548" r="6" />
+
+  <a class="work-link" href="https://icml.cc/virtual/2024/37541" target="_blank" rel="noopener noreferrer" aria-label="Bias Transmission in Large Language Models: Evidence from Gender-Occupation Bias in GPT-4">
+    <title>Bias Transmission in Large Language Models: Evidence from Gender-Occupation Bias in GPT-4</title>
+    <text class="work" x="60" y="596"><tspan class="citation">Morehouse et al. &#8217;24</tspan><tspan class="insight"> &#8212; model associations need not predict outcome bias</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="590" r="6" /><circle class="dot assess" cx="1135" cy="590" r="6" />
+
+  <a class="work-link" href="https://proceedings.mlr.press/v267/morehouse25a.html" target="_blank" rel="noopener noreferrer" aria-label="Position: Rethinking LLM Bias Probing Using Lessons from the Social Sciences">
+    <title>Position: Rethinking LLM Bias Probing Using Lessons from the Social Sciences</title>
+    <text class="work" x="60" y="638"><tspan class="citation">Morehouse et al. &#8217;25</tspan><tspan class="insight"> &#8212; social-science theory scopes bias claims</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="632" r="6" /><circle class="dot assess" cx="1135" cy="632" r="6" /><circle class="dot govern" cx="1295" cy="632" r="6" />
+
+  <a class="work-link" href="https://openreview.net/forum?id=mk1YIkVvTQ" target="_blank" rel="noopener noreferrer" aria-label="Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models">
+    <title>Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models</title>
+    <text class="work" x="60" y="680"><tspan class="citation">Magid et al. &#8217;25</tspan><tspan class="insight"> &#8212; concept-based audits make model outputs inspectable</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="674" r="6" /><circle class="dot assess" cx="1135" cy="674" r="6" />
+
+  <a class="work-link" href="https://icml.cc/virtual/2024/36720" target="_blank" rel="noopener noreferrer" aria-label="Synthetic Data-Driven Prediction of Height for Childhood Malnutrition">
+    <title>Synthetic Data-Driven Prediction of Height for Childhood Malnutrition</title>
+    <text class="work" x="60" y="722"><tspan class="citation">Berthiaume et al. &#8217;24</tspan><tspan class="insight"> &#8212; synthetic data reduce privacy and scarcity barriers</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="716" r="6" /><circle class="dot assess" cx="1135" cy="716" r="6" /><circle class="dot govern" cx="1295" cy="716" r="6" />
+
+  <a class="work-link" href="https://www.nature.com/articles/s44220-024-00335-w" target="_blank" rel="noopener noreferrer" aria-label="Building Personalized Machine Learning Models Using Real-Time Monitoring Data to Predict Idiographic Suicidal Thoughts">
+    <title>Building Personalized Machine Learning Models Using Real-Time Monitoring Data to Predict Idiographic Suicidal Thoughts</title>
+    <text class="work" x="60" y="764"><tspan class="citation">Wang et al. &#8217;24</tspan><tspan class="insight"> &#8212; population claims give way to idiographic evidence</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="758" r="6" /><circle class="dot assess" cx="1135" cy="758" r="6" />
+
+  <a class="work-link" href="https://iclr.cc/virtual/2025/33331" target="_blank" rel="noopener noreferrer" aria-label="AI Companions Are Not the Solution to Loneliness: Design Choices and Their Drawbacks">
+    <title>AI Companions Are Not the Solution to Loneliness: Design Choices and Their Drawbacks</title>
+    <text class="work" x="60" y="806"><tspan class="citation">Raedler et al. &#8217;25a</tspan><tspan class="insight"> &#8212; design choices create foreseeable dependence harms</tspan></text>
+  </a>
+  <circle class="dot assess" cx="1135" cy="800" r="6" /><circle class="dot govern" cx="1295" cy="800" r="6" />
+
+  <line class="group-rule" x1="60" y1="834" x2="1340" y2="834" />
+  <text class="group" x="60" y="860">GOVERNANCE AND TECHNICAL ASSURANCE</text>
+
+  <a class="work-link" href="https://neurips.cc/virtual/2024/103292" target="_blank" rel="noopener noreferrer" aria-label="Position: AI Agents and Liability &#8212; Mapping Insights from ML and HCI Research to Policy">
+    <title>Position: AI Agents &amp; Liability &#8212; Mapping Insights from ML and HCI Research to Policy</title>
+    <text class="work" x="60" y="898"><tspan class="citation">Dunlop et al. &#8217;24</tspan><tspan class="insight"> &#8212; technical properties map to duties of care</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="892" r="6" /><circle class="dot assess" cx="1135" cy="892" r="6" /><circle class="dot govern" cx="1295" cy="892" r="6" />
+
+  <a class="work-link" href="https://neurips.cc/virtual/2024/106963" target="_blank" rel="noopener noreferrer" aria-label="An Autonomy-Based Classification: Liability in the Age of AI Agents">
+    <title>An Autonomy-Based Classification: Liability in the Age of AI Agents</title>
+    <text class="work" x="60" y="940"><tspan class="citation">Smakman et al. &#8217;24</tspan><tspan class="insight"> &#8212; autonomy scale structures allocation of liability</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="934" r="6" /><circle class="dot govern" cx="1295" cy="934" r="6" />
+
+  <a class="work-link" href="https://icml.cc/virtual/2025/50956" target="_blank" rel="noopener noreferrer" aria-label="The Necessity for Intervention Fidelity: Unintended Side Effects When Steering LLMs">
+    <title>The Necessity for Intervention Fidelity: Unintended Side Effects When Steering LLMs</title>
+    <text class="work" x="60" y="982"><tspan class="citation">Raedler et al. &#8217;25b</tspan><tspan class="insight"> &#8212; steering side effects become an assurance requirement</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="976" r="6" /><circle class="dot assess" cx="1135" cy="976" r="6" /><circle class="dot govern" cx="1295" cy="976" r="6" />
+
+  <a class="work-link" href="https://arxiv.org/abs/2211.05667" target="_blank" rel="noopener noreferrer" aria-label="What Makes a Good Explanation? A Harmonized View of Properties of Explanations">
+    <title>What Makes a Good Explanation? A Harmonized View of Properties of Explanations</title>
+    <text class="work" x="60" y="1024"><tspan class="citation">Chen et al. &#8217;22</tspan><tspan class="insight"> &#8212; explanation claims become measurable properties</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="1018" r="6" /><circle class="dot assess" cx="1135" cy="1018" r="6" /><circle class="dot govern" cx="1295" cy="1018" r="6" />
+
+  <a class="work-link" href="https://arxiv.org/abs/2410.23880" target="_blank" rel="noopener noreferrer" aria-label="Directly Optimizing Explanations for Desired Properties">
+    <title>Directly Optimizing Explanations for Desired Properties</title>
+    <text class="work" x="60" y="1066"><tspan class="citation">Tadesse et al. &#8217;25</tspan><tspan class="insight"> &#8212; explanations optimize explicit assurance requirements</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="1060" r="6" /><circle class="dot assess" cx="1135" cy="1060" r="6" /><circle class="dot govern" cx="1295" cy="1060" r="6" />
+
+  <a class="work-link" href="https://proceedings.mlr.press/v149/yao21a.html" target="_blank" rel="noopener noreferrer" aria-label="Power Constrained Bandits">
+    <title>Power Constrained Bandits</title>
+    <text class="work" x="60" y="1108"><tspan class="citation">Yao et al. &#8217;21</tspan><tspan class="insight"> &#8212; personalization preserves population-level evidence</tspan></text>
+  </a>
+  <circle class="dot translate" cx="975" cy="1102" r="6" /><circle class="dot assess" cx="1135" cy="1102" r="6" /><circle class="dot govern" cx="1295" cy="1102" r="6" />
+</svg>

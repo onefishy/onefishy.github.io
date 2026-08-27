@@ -1,0 +1,185 @@
+<svg class="task-level-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1230" width="1400" height="1230" role="img" aria-labelledby="title desc">
+  <title id="title">Task-level assurance research map</title>
+  <desc id="desc">Nineteen linked publications organized by four task-level questions: model relevant user factors, adapt support, evaluate the joint human-AI system, and bound adaptation so that it remains safe and consensual.</desc>
+  <style>
+    .task-level-map {
+      --ink: #18212f;
+      --muted: #5b6775;
+      --rule: #d9dee7;
+      --link-rule: #9aa5b3;
+      --model: #2563eb;
+      --adapt: #0f8a7a;
+      --evaluate: #7c4dcc;
+      --bound: #d97706;
+      font-family: "EB Garamond", Garamond, "Times New Roman", serif;
+    }
+    .title { fill: var(--ink); font-size: 29px; font-weight: 500; }
+    .note, .axis-label, .question, .insight { fill: var(--muted); }
+    .note { font-size: 15px; }
+    .axis-label { font-size: 14px; }
+    .step { fill: var(--ink); font-size: 15px; font-weight: 500; letter-spacing: 1.5px; }
+    .question { font-size: 13px; }
+    .group { fill: var(--muted); font-size: 14px; font-weight: 500; letter-spacing: 1.25px; }
+    .work { fill: var(--ink); font-size: 16px; }
+    .citation { font-weight: 500; }
+    .guide, .group-rule { stroke: var(--rule); stroke-width: 1; vector-effect: non-scaling-stroke; }
+    .group-rule { opacity: 0.95; }
+    .guide { opacity: 0.72; }
+    .head-rule { stroke-width: 4; vector-effect: non-scaling-stroke; }
+    .model { fill: var(--model); stroke: var(--model); }
+    .adapt { fill: var(--adapt); stroke: var(--adapt); }
+    .evaluate { fill: var(--evaluate); stroke: var(--evaluate); }
+    .bound { fill: var(--bound); stroke: var(--bound); }
+    .dot { stroke: none; }
+    .work-link { text-decoration: underline; text-decoration-color: var(--link-rule); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .work-link:hover { text-decoration-color: var(--ink); }
+  </style>
+
+  <text class="title" x="60" y="58">Task-level assurance</text>
+  <text class="note" x="60" y="90">Multiple dots mark works that answer more than one assurance question.</text>
+  <text class="axis-label" x="60" y="160">Works and their task-level insights</text>
+
+  <line class="head-rule model" x1="785" y1="126" x2="845" y2="126" />
+  <text class="step" x="815" y="153" text-anchor="middle">MODEL</text>
+  <text class="question" x="815" y="178" text-anchor="middle"><tspan x="815">Which user factors</tspan><tspan x="815" dy="18">matter?</tspan></text>
+
+  <line class="head-rule adapt" x1="945" y1="126" x2="1005" y2="126" />
+  <text class="step" x="975" y="153" text-anchor="middle">ADAPT</text>
+  <text class="question" x="975" y="178" text-anchor="middle"><tspan x="975">How should support</tspan><tspan x="975" dy="18">change with the user?</tspan></text>
+
+  <line class="head-rule evaluate" x1="1105" y1="126" x2="1165" y2="126" />
+  <text class="step" x="1135" y="153" text-anchor="middle">EVALUATE</text>
+  <text class="question" x="1135" y="178" text-anchor="middle"><tspan x="1135">Does the joint system</tspan><tspan x="1135" dy="18">work?</tspan></text>
+
+  <line class="head-rule bound" x1="1265" y1="126" x2="1325" y2="126" />
+  <text class="step" x="1295" y="153" text-anchor="middle">BOUND</text>
+  <text class="question" x="1295" y="178" text-anchor="middle"><tspan x="1295">Safe and</tspan><tspan x="1295" dy="18">consensual?</tspan></text>
+
+  <line class="guide" x1="815" y1="218" x2="815" y2="1185" />
+  <line class="guide" x1="975" y1="218" x2="975" y2="1185" />
+  <line class="guide" x1="1135" y1="218" x2="1135" y2="1185" />
+  <line class="guide" x1="1295" y1="218" x2="1295" y2="1185" />
+
+  <line class="group-rule" x1="60" y1="230" x2="1340" y2="230" />
+  <text class="group" x="60" y="256">TASK-GROUNDED MODELS OF USERS</text>
+
+  <a class="work-link" href="https://arxiv.org/abs/2401.14923" target="_blank" rel="noopener noreferrer" aria-label="Reinforcement Learning Interventions on Boundedly Rational Human Agents in Frictionful Tasks">
+    <title>Reinforcement Learning Interventions on Boundedly Rational Human Agents in Frictionful Tasks</title>
+    <text class="work" x="60" y="294"><tspan class="citation">Nofshin et al. &#8217;24</tspan><tspan class="insight"> &#8212; bounded-rational user models for intervention design</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="288" r="6" /><circle class="dot adapt" cx="975" cy="288" r="6" /><circle class="dot evaluate" cx="1135" cy="288" r="6" />
+
+  <a class="work-link" href="https://rlj.cs.umass.edu/2025/papers/RLJ_RLC_2025_59.pdf" target="_blank" rel="noopener noreferrer" aria-label="When and Why Hyperbolic Discounting Matters for Reinforcement Learning Interventions">
+    <title>When and Why Hyperbolic Discounting Matters for Reinforcement Learning Interventions</title>
+    <text class="work" x="60" y="336"><tspan class="citation">Moore et al. &#8217;25</tspan><tspan class="insight"> &#8212; when temporal-bias fidelity improves intervention policy</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="330" r="6" /><circle class="dot adapt" cx="975" cy="330" r="6" /><circle class="dot evaluate" cx="1135" cy="330" r="6" />
+
+  <a class="work-link" href="https://arxiv.org/abs/2307.08169" target="_blank" rel="noopener noreferrer" aria-label="Discovering User Types: Mapping User Traits by Task-Specific Behaviors in Reinforcement Learning">
+    <title>Discovering User Types: Mapping User Traits by Task-Specific Behaviors in Reinforcement Learning</title>
+    <text class="work" x="60" y="378"><tspan class="citation">Ankile et al. &#8217;23</tspan><tspan class="insight"> &#8212; user types defined by task-specific behavior</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="372" r="6" /><circle class="dot adapt" cx="975" cy="372" r="6" />
+
+  <a class="work-link" href="https://rlj.cs.umass.edu/2024/papers/Paper138.html" target="_blank" rel="noopener noreferrer" aria-label="Inverse Reinforcement Learning with Multiple Planning Horizons">
+    <title>Inverse Reinforcement Learning with Multiple Planning Horizons</title>
+    <text class="work" x="60" y="420"><tspan class="citation">Yao et al. &#8217;24</tspan><tspan class="insight"> &#8212; shared goals with heterogeneous planning horizons</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="414" r="6" /><circle class="dot adapt" cx="975" cy="414" r="6" />
+
+  <a class="work-link" href="https://icml.cc/virtual/2024/37708" target="_blank" rel="noopener noreferrer" aria-label="AMBER: An Entropy Maximizing Environment Design Algorithm for Inverse Reinforcement Learning">
+    <title>AMBER: An Entropy Maximizing Environment Design Algorithm for Inverse Reinforcement Learning</title>
+    <text class="work" x="60" y="462"><tspan class="citation">Nitschke et al. &#8217;24</tspan><tspan class="insight"> &#8212; environments that reveal user objectives</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="456" r="6" /><circle class="dot adapt" cx="975" cy="456" r="6" /><circle class="dot evaluate" cx="1135" cy="456" r="6" />
+
+  <a class="work-link" href="https://jmlr.org/papers/v25/24-0087.html" target="_blank" rel="noopener noreferrer" aria-label="Rethinking Discount Regularization: New Interpretations, Unintended Consequences, and Solutions for Regularization in Reinforcement Learning">
+    <title>Rethinking Discount Regularization: New Interpretations, Unintended Consequences, and Solutions for Regularization in Reinforcement Learning</title>
+    <text class="work" x="60" y="504"><tspan class="citation">Rathnam et al. &#8217;24</tspan><tspan class="insight"> &#8212; unintended effects of short-horizon regularization</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="498" r="6" /><circle class="dot adapt" cx="975" cy="498" r="6" /><circle class="dot evaluate" cx="1135" cy="498" r="6" />
+
+  <line class="group-rule" x1="60" y1="532" x2="1340" y2="532" />
+  <text class="group" x="60" y="558">PERSONALIZED AND CONSTRAINED ASSISTANCE</text>
+
+  <a class="work-link" href="https://proceedings.mlr.press/v149/yao21a.html" target="_blank" rel="noopener noreferrer" aria-label="Power Constrained Bandits">
+    <title>Power Constrained Bandits</title>
+    <text class="work" x="60" y="596"><tspan class="citation">Yao et al. &#8217;21</tspan><tspan class="insight"> &#8212; personalization with trial-power guarantees</tspan></text>
+  </a>
+  <circle class="dot adapt" cx="975" cy="590" r="6" /><circle class="dot evaluate" cx="1135" cy="590" r="6" />
+
+  <a class="work-link" href="https://doi.org/10.1126/sciadv.adu2099" target="_blank" rel="noopener noreferrer" aria-label="Preference-Based Assistance Optimization for Lifting and Lowering with a Soft Back Exosuit">
+    <title>Preference-Based Assistance Optimization for Lifting and Lowering with a Soft Back Exosuit</title>
+    <text class="work" x="60" y="638"><tspan class="citation">Arens et al. &#8217;25</tspan><tspan class="insight"> &#8212; assistance optimized from user preferences</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="632" r="6" /><circle class="dot adapt" cx="975" cy="632" r="6" /><circle class="dot evaluate" cx="1135" cy="632" r="6" /><circle class="dot bound" cx="1295" cy="632" r="6" />
+
+  <a class="work-link" href="https://www.nature.com/articles/s44220-024-00335-w" target="_blank" rel="noopener noreferrer" aria-label="Building Personalized Machine Learning Models Using Real-Time Monitoring Data to Predict Idiographic Suicidal Thoughts">
+    <title>Building Personalized Machine Learning Models Using Real-Time Monitoring Data to Predict Idiographic Suicidal Thoughts</title>
+    <text class="work" x="60" y="680"><tspan class="citation">Wang et al. &#8217;24</tspan><tspan class="insight"> &#8212; idiographic prediction from longitudinal monitoring</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="674" r="6" /><circle class="dot adapt" cx="975" cy="674" r="6" /><circle class="dot evaluate" cx="1135" cy="674" r="6" />
+
+  <a class="work-link" href="https://finale.seas.harvard.edu/publications/cruds-counterfactual-recourse-using-disentangled-subspaces" target="_blank" rel="noopener noreferrer" aria-label="CRUDS: Counterfactual Recourse Using Disentangled Subspaces">
+    <title>CRUDS: Counterfactual Recourse Using Disentangled Subspaces</title>
+    <text class="work" x="60" y="722"><tspan class="citation">Downs et al. &#8217;20</tspan><tspan class="insight"> &#8212; recourse under structural and user constraints</tspan></text>
+  </a>
+  <circle class="dot adapt" cx="975" cy="716" r="6" /><circle class="dot evaluate" cx="1135" cy="716" r="6" /><circle class="dot bound" cx="1295" cy="716" r="6" />
+
+  <a class="work-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12099420/" target="_blank" rel="noopener noreferrer" aria-label="Where Do Doctors Disagree? Characterizing Decision Points for Safe Reinforcement Learning in Choosing Vasopressor Treatment">
+    <title>Where Do Doctors Disagree? Characterizing Decision Points for Safe Reinforcement Learning in Choosing Vasopressor Treatment</title>
+    <text class="work" x="60" y="764"><tspan class="citation">Brown et al. &#8217;25</tspan><tspan class="insight"> &#8212; clinician disagreement marks decision points</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="758" r="6" /><circle class="dot evaluate" cx="1135" cy="758" r="6" /><circle class="dot bound" cx="1295" cy="758" r="6" />
+
+  <a class="work-link" href="https://doi.org/10.1017/S1049023X25001025" target="_blank" rel="noopener noreferrer" aria-label="Crowd Simulation Models for Enhanced Mass-Gathering Medical Response: A Practical Application">
+    <title>Crowd Simulation Models for Enhanced Mass-Gathering Medical Response: A Practical Application</title>
+    <text class="work" x="60" y="806"><tspan class="citation">Mathew et al. &#8217;25</tspan><tspan class="insight"> &#8212; validated crowd models for emergency-response planning</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="800" r="6" /><circle class="dot evaluate" cx="1135" cy="800" r="6" />
+
+  <line class="group-rule" x1="60" y1="840" x2="1340" y2="840" />
+  <text class="group" x="60" y="866">EVALUATION, AUTHORITY, AND LONGER-TERM EFFECTS</text>
+
+  <a class="work-link" href="https://arxiv.org/abs/2406.00116" target="_blank" rel="noopener noreferrer" aria-label="A Sim2Real Approach for Identifying Task-Relevant Properties in Interpretable Machine Learning">
+    <title>A Sim2Real Approach for Identifying Task-Relevant Properties in Interpretable Machine Learning</title>
+    <text class="work" x="60" y="904"><tspan class="citation">Nofshin et al. &#8217;24b</tspan><tspan class="insight"> &#8212; proxy users screen explanations before user studies</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="898" r="6" /><circle class="dot evaluate" cx="1135" cy="898" r="6" />
+
+  <a class="work-link" href="https://neurips.cc/virtual/2024/102116" target="_blank" rel="noopener noreferrer" aria-label="Accuracy Isn&#8217;t Everything: Understanding the Desiderata of AI Tools in Legal-Financial Settings">
+    <title>Accuracy Isn&#8217;t Everything: Understanding the Desiderata of AI Tools in Legal-Financial Settings</title>
+    <text class="work" x="60" y="946"><tspan class="citation">Chitgopkar et al. &#8217;24</tspan><tspan class="insight"> &#8212; workflow needs beyond model accuracy</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="940" r="6" /><circle class="dot evaluate" cx="1135" cy="940" r="6" /><circle class="dot bound" cx="1295" cy="940" r="6" />
+
+  <a class="work-link" href="https://neurips.cc/virtual/2024/103333" target="_blank" rel="noopener noreferrer" aria-label="Understanding Model Bias Requires Systematic Probing Across Tasks">
+    <title>Understanding Model Bias Requires Systematic Probing Across Tasks</title>
+    <text class="work" x="60" y="988"><tspan class="citation">Boussard et al. &#8217;24</tspan><tspan class="insight"> &#8212; bias changes across real decision tasks</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="982" r="6" /><circle class="dot evaluate" cx="1135" cy="982" r="6" />
+
+  <a class="work-link" href="https://icml.cc/virtual/2024/37541" target="_blank" rel="noopener noreferrer" aria-label="Bias Transmission in Large Language Models: Evidence from Gender-Occupation Bias in GPT-4">
+    <title>Bias Transmission in Large Language Models: Evidence from Gender-Occupation Bias in GPT-4</title>
+    <text class="work" x="60" y="1030"><tspan class="citation">Morehouse et al. &#8217;24</tspan><tspan class="insight"> &#8212; when model associations affect user-facing outcomes</tspan></text>
+  </a>
+  <circle class="dot evaluate" cx="1135" cy="1024" r="6" /><circle class="dot bound" cx="1295" cy="1024" r="6" />
+
+  <a class="work-link" href="https://proceedings.mlr.press/v267/morehouse25a.html" target="_blank" rel="noopener noreferrer" aria-label="Position: Rethinking LLM Bias Probing Using Lessons from the Social Sciences">
+    <title>Position: Rethinking LLM Bias Probing Using Lessons from the Social Sciences</title>
+    <text class="work" x="60" y="1072"><tspan class="citation">Morehouse et al. &#8217;25</tspan><tspan class="insight"> &#8212; behavioral probes linked to real-world generalization</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="1066" r="6" /><circle class="dot evaluate" cx="1135" cy="1066" r="6" />
+
+  <a class="work-link" href="https://doi.org/10.1145/3729176.3729194" target="_blank" rel="noopener noreferrer" aria-label="ChatGPT, Don&#8217;t Tell Me What to Do: Designing AI for Context Analysis in Humanitarian Frontline Negotiations">
+    <title>ChatGPT, Don&#8217;t Tell Me What to Do: Designing AI for Context Analysis in Humanitarian Frontline Negotiations</title>
+    <text class="work" x="60" y="1114"><tspan class="citation">Ma et al. &#8217;25</tspan><tspan class="insight"> &#8212; AI supports analysis while practitioners retain judgement</tspan></text>
+  </a>
+  <circle class="dot model" cx="815" cy="1108" r="6" /><circle class="dot adapt" cx="975" cy="1108" r="6" /><circle class="dot evaluate" cx="1135" cy="1108" r="6" /><circle class="dot bound" cx="1295" cy="1108" r="6" />
+
+  <a class="work-link" href="https://iclr.cc/virtual/2025/33331" target="_blank" rel="noopener noreferrer" aria-label="AI Companions Are Not the Solution to Loneliness: Design Choices and Their Drawbacks">
+    <title>AI Companions Are Not the Solution to Loneliness: Design Choices and Their Drawbacks</title>
+    <text class="work" x="60" y="1156"><tspan class="citation">Raedler et al. &#8217;25</tspan><tspan class="insight"> &#8212; design choices that create dependence</tspan></text>
+  </a>
+  <circle class="dot evaluate" cx="1135" cy="1150" r="6" /><circle class="dot bound" cx="1295" cy="1150" r="6" />
+</svg>

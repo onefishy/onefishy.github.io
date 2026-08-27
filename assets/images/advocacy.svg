@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 1140" width="1040" height="1140" role="img" aria-labelledby="ca-title ca-desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ca-title">Building collective agency</title>
+  <desc id="ca-desc">Twenty-nine outreach, community-building, diversity, equity, inclusion, and advocacy activities are organized along a four-stage pathway: make knowledge usable, enable participation, build community, and change institutions.</desc>
+
+  <style>
+    :root {
+      --ca-ink: #4c473f;
+      --ca-muted: #736f69;
+      --ca-background: #eaece7;
+      --ca-border: #d0d5dd;
+      --ca-stage-1: #2563eb;
+      --ca-stage-2: #0f8a7a;
+      --ca-stage-3: #7c4dcc;
+      --ca-stage-4: #d97706;
+    }
+
+    text {
+      fill: var(--ca-ink);
+      font-family: "EB Garamond", Garamond, "Times New Roman", serif;
+      font-weight: 400;
+    }
+
+    .heading { font-size: 24px; font-weight: 500; }
+    .stage-number { font-size: 17px; font-weight: 500; text-anchor: middle; }
+    .stage-title { font-size: 20px; font-weight: 500; text-anchor: middle; }
+    .principle { fill: var(--ca-muted); font-size: 15px; text-anchor: middle; }
+    .activity-name { font-size: 17px; }
+    .activity-meta { fill: var(--ca-muted); font-size: 14px; }
+    .note { fill: var(--ca-muted); font-size: 14px; }
+    .divider { stroke: var(--ca-border); stroke-width: 1; }
+    .stage-circle { fill: var(--ca-background); stroke-width: 2.5; }
+    .stage-1-stroke { stroke: var(--ca-stage-1); }
+    .stage-2-stroke { stroke: var(--ca-stage-2); }
+    .stage-3-stroke { stroke: var(--ca-stage-3); }
+    .stage-4-stroke { stroke: var(--ca-stage-4); }
+    .stage-1-fill { fill: var(--ca-stage-1); }
+    .stage-2-fill { fill: var(--ca-stage-2); }
+    .stage-3-fill { fill: var(--ca-stage-3); }
+    .stage-4-fill { fill: var(--ca-stage-4); }
+  </style>
+
+  <defs>
+    <linearGradient id="ca-path-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="var(--ca-stage-1)"/>
+      <stop offset="33%" stop-color="var(--ca-stage-2)"/>
+      <stop offset="67%" stop-color="var(--ca-stage-3)"/>
+      <stop offset="100%" stop-color="var(--ca-stage-4)"/>
+    </linearGradient>
+  </defs>
+
+  <text class="heading" x="35" y="38">Building collective agency</text>
+  <line x1="145" y1="100" x2="895" y2="100" stroke="url(#ca-path-gradient)" stroke-width="2.5" opacity="0.62"/>
+
+  <g aria-label="Stage 1: Make knowledge usable">
+    <circle class="stage-circle stage-1-stroke" cx="145" cy="100" r="30"/>
+    <text class="stage-number" x="145" y="106">01</text>
+    <text class="stage-title" x="145" y="158">
+      <tspan x="145">Make knowledge</tspan>
+      <tspan x="145" dy="24">usable</tspan>
+    </text>
+    <text class="principle" x="145" y="214">Translation + public learning</text>
+    <line class="divider" x1="35" y1="235" x2="255" y2="235"/>
+
+    <g transform="translate(35 270)"><title>AI in Negotiations workshop series – Frontline Associates, 2024–25</title><circle class="stage-1-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">AI in Negotiations</text><text class="activity-name" x="16" y="21">workshop series</text><text class="activity-meta" x="16" y="49">Frontline Associates · 2024–25</text></g>
+
+    <g transform="translate(35 360)"><title>Course on large language models – United Nations E-Analytics and Innovations, 2024</title><circle class="stage-1-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Course on large</text><text class="activity-name" x="16" y="21">language models</text><text class="activity-meta" x="16" y="49">UN E-Analytics &amp; Innovations</text><text class="activity-meta" x="16" y="67">2024</text></g>
+
+    <g transform="translate(35 450)"><title>Data Science Winter Pedagogy Workshop – IACS, 2021–22</title><circle class="stage-1-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Data Science Winter</text><text class="activity-name" x="16" y="21">Pedagogy Workshop</text><text class="activity-meta" x="16" y="49">IACS · 2021–22</text></g>
+
+    <g transform="translate(35 555)"><title>Cambridge Women in Data Science Datathon Workshop – Organizer, 2017–23</title><circle class="stage-1-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Cambridge Women in</text><text class="activity-name" x="16" y="21">Data Science Datathon</text><text class="activity-name" x="16" y="42">Workshop</text><text class="activity-meta" x="16" y="70">Organizer · 2017–23</text></g>
+
+    <g transform="translate(35 665)"><title>Uncertainty Quantification Un-Workshop – Women in Machine Learning at ICML, 2020</title><circle class="stage-1-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Uncertainty Quantification</text><text class="activity-name" x="16" y="21">Un-Workshop</text><text class="activity-meta" x="16" y="49">Women in Machine Learning</text><text class="activity-meta" x="16" y="67">ICML · 2020</text></g>
+
+    <g transform="translate(35 775)"><title>Deep Generative Models and Downstream Applications workshop – NeurIPS, 2021</title><circle class="stage-1-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Deep Generative Models</text><text class="activity-name" x="16" y="21">and Downstream</text><text class="activity-name" x="16" y="42">Applications workshop</text><text class="activity-meta" x="16" y="70">NeurIPS · 2021</text></g>
+
+    <g transform="translate(35 880)"><title>Educational mobile applications for nonprofit science organizations – SENCER–ISE grant, principal investigator, 2013–15</title><circle class="stage-1-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Educational mobile apps</text><text class="activity-name" x="16" y="21">for nonprofit science</text><text class="activity-name" x="16" y="42">organizations</text><text class="activity-meta" x="16" y="70">SENCER–ISE grant · PI</text><text class="activity-meta" x="16" y="88">2013–15</text></g>
+  </g>
+
+  <g aria-label="Stage 2: Enable participation">
+    <circle class="stage-circle stage-2-stroke" cx="395" cy="100" r="30"/>
+    <text class="stage-number" x="395" y="106">02</text>
+    <text class="stage-title" x="395" y="158">
+      <tspan x="395">Enable</tspan>
+      <tspan x="395" dy="24">participation</tspan>
+    </text>
+    <text class="principle" x="395" y="214">Access + mentorship</text>
+    <line class="divider" x1="285" y1="235" x2="505" y2="235"/>
+
+    <g transform="translate(285 270)"><title>PhD Application Working Group – Organizer and faculty advisor, IACS, 2021–25</title><circle class="stage-2-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">PhD Application</text><text class="activity-name" x="16" y="21">Working Group</text><text class="activity-meta" x="16" y="49">Organizer + faculty advisor</text><text class="activity-meta" x="16" y="67">IACS · 2021–25</text></g>
+
+    <g transform="translate(285 375)"><title>Research access and mentorship for more than 100 students – REUs, independent studies, theses and dissertations, since 2005</title><circle class="stage-2-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Research access and</text><text class="activity-name" x="16" y="21">mentorship for 100+</text><text class="activity-name" x="16" y="42">students</text><text class="activity-meta" x="16" y="70">REUs, theses + dissertations</text><text class="activity-meta" x="16" y="88">since 2005</text></g>
+
+    <g transform="translate(285 480)"><title>TRiCAM undergraduate research mentoring – Harvard, 2016–18</title><circle class="stage-2-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">TRiCAM undergraduate</text><text class="activity-name" x="16" y="21">research mentoring</text><text class="activity-meta" x="16" y="49">Harvard · 2016–18</text></g>
+
+    <g transform="translate(285 590)"><title>(SMC)² Summer Math Camp – Director; gifted and educationally disadvantaged students, 2010–14</title><circle class="stage-2-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">(SMC)² Summer</text><text class="activity-name" x="16" y="21">Math Camp</text><text class="activity-meta" x="16" y="49">Director · gifted and</text><text class="activity-meta" x="16" y="67">underserved students · 2010–14</text></g>
+
+    <g transform="translate(285 700)"><title>Expand Your Horizons STEM workshops – Middle-school girls, 2010 and 2013</title><circle class="stage-2-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Expand Your Horizons</text><text class="activity-name" x="16" y="21">STEM workshops</text><text class="activity-meta" x="16" y="49">Middle-school girls</text><text class="activity-meta" x="16" y="67">2010 and 2013</text></g>
+
+    <g transform="translate(285 805)"><title>Graduate Student Career Workshop Series – Wesleyan, 2008–09</title><circle class="stage-2-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Graduate Student Career</text><text class="activity-name" x="16" y="21">Workshop Series</text><text class="activity-meta" x="16" y="49">Wesleyan · 2008–09</text></g>
+
+    <g transform="translate(285 905)"><title>Women in Mathematics graduate panel – Smith College, 2008</title><circle class="stage-2-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Women in Mathematics</text><text class="activity-name" x="16" y="21">graduate panel</text><text class="activity-meta" x="16" y="49">Smith College · 2008</text></g>
+
+    <g transform="translate(285 1000)"><title>Career Mentoring Workshop for Women – Participant, Wheaton College, 2008</title><circle class="stage-2-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Career Mentoring</text><text class="activity-name" x="16" y="21">Workshop for Women</text><text class="activity-meta" x="16" y="49">Participant · Wheaton · 2008</text></g>
+  </g>
+
+  <g aria-label="Stage 3: Build community">
+    <circle class="stage-circle stage-3-stroke" cx="645" cy="100" r="30"/>
+    <text class="stage-number" x="645" y="106">03</text>
+    <text class="stage-title" x="645" y="158">
+      <tspan x="645">Build</tspan>
+      <tspan x="645" dy="24">community</tspan>
+    </text>
+    <text class="principle" x="645" y="214">Belonging + durable networks</text>
+    <line class="divider" x1="535" y1="235" x2="755" y2="235"/>
+
+    <g transform="translate(535 270)"><title>International AI in Climate Negotiation Challenge – Co-organizer with Frontline Associates, 2025</title><circle class="stage-3-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">International AI in Climate</text><text class="activity-name" x="16" y="21">Negotiation Challenge</text><text class="activity-meta" x="16" y="49">Co-organizer · Frontline</text><text class="activity-meta" x="16" y="67">Associates · 2025</text></g>
+
+    <g transform="translate(535 375)"><title>Diversity, Inclusion and Leadership Reading Group – IACS, 2022–23</title><circle class="stage-3-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Diversity, Inclusion and</text><text class="activity-name" x="16" y="21">Leadership Reading Group</text><text class="activity-meta" x="16" y="49">IACS · 2022–23</text></g>
+
+    <g transform="translate(535 480)"><title>Graduate Student Advisory Committee – Faculty advisor, IACS, 2020–25</title><circle class="stage-3-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Graduate Student</text><text class="activity-name" x="16" y="21">Advisory Committee</text><text class="activity-meta" x="16" y="49">Faculty advisor, IACS</text><text class="activity-meta" x="16" y="67">2020–25</text></g>
+
+    <g transform="translate(535 585)"><title>Higher Structures in China conference series – Chinese and international research communities, 2011–15</title><circle class="stage-3-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Higher Structures in China</text><text class="activity-name" x="16" y="21">conference series</text><text class="activity-meta" x="16" y="49">Chinese + international</text><text class="activity-meta" x="16" y="67">research communities · 2011–15</text></g>
+
+    <g transform="translate(535 690)"><title>NorCal–NV–HI Project NExT – Section organizer, 2009–15</title><circle class="stage-3-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">NorCal–NV–HI</text><text class="activity-name" x="16" y="21">Project NExT</text><text class="activity-meta" x="16" y="49">Section organizer · 2009–15</text></g>
+
+    <g transform="translate(535 795)"><title>Project NExT – Fellow, 2009–10</title><circle class="stage-3-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Project NExT</text><text class="activity-meta" x="16" y="28">Fellow · 2009–10</text></g>
+
+    <g transform="translate(535 900)"><title>Women in the Mathematics Department meetings – Founder and organizer, Wesleyan, 2008–09</title><circle class="stage-3-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Women in the Mathematics</text><text class="activity-name" x="16" y="21">Department meetings</text><text class="activity-meta" x="16" y="49">Founder + organizer</text><text class="activity-meta" x="16" y="67">Wesleyan · 2008–09</text></g>
+
+    <g transform="translate(535 1005)"><title>Meetings and Programs Committee – Association for Women in Mathematics, 2010–11</title><circle class="stage-3-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Meetings and Programs</text><text class="activity-name" x="16" y="21">Committee</text><text class="activity-meta" x="16" y="49">Association for Women</text><text class="activity-meta" x="16" y="67">in Mathematics · 2010–11</text></g>
+  </g>
+
+  <g aria-label="Stage 4: Change institutions">
+    <circle class="stage-circle stage-4-stroke" cx="895" cy="100" r="30"/>
+    <text class="stage-number" x="895" y="106">04</text>
+    <text class="stage-title" x="895" y="158">
+      <tspan x="895">Change</tspan>
+      <tspan x="895" dy="24">institutions</tspan>
+    </text>
+    <text class="principle" x="895" y="214">Representation + structural reform</text>
+    <line class="divider" x1="785" y1="235" x2="1005" y2="235"/>
+
+    <g transform="translate(785 270)"><title>Stanford Women in Data Science Datathon Committee – Member to co-chair, 2020–23</title><circle class="stage-4-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Stanford Women in Data</text><text class="activity-name" x="16" y="21">Science Datathon Committee</text><text class="activity-meta" x="16" y="49">Member – co-chair · 2020–23</text></g>
+
+    <g transform="translate(785 375)"><title>Graduate-program student advocacy – Assistant Director, IACS, 2022–26</title><circle class="stage-4-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Graduate-program</text><text class="activity-name" x="16" y="21">student advocacy</text><text class="activity-meta" x="16" y="49">Assistant Director, IACS</text><text class="activity-meta" x="16" y="67">2022–26</text></g>
+
+    <g transform="translate(785 480)"><title>Bridge curricula into technical majors – Curriculum committee work</title><circle class="stage-4-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Bridge curricula into</text><text class="activity-name" x="16" y="21">technical majors</text><text class="activity-meta" x="16" y="49">Curriculum committee work</text></g>
+
+    <g transform="translate(785 585)"><title>Equitable admissions and selection rubrics – Admissions and selection committees</title><circle class="stage-4-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Equitable admissions and</text><text class="activity-name" x="16" y="21">selection rubrics</text><text class="activity-meta" x="16" y="49">Admissions + selection</text><text class="activity-meta" x="16" y="67">committees</text></g>
+
+    <g transform="translate(785 690)"><title>Recruitment strategies for underrepresented students – Student–staff–faculty coalitions</title><circle class="stage-4-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Recruitment strategies for</text><text class="activity-name" x="16" y="21">underrepresented students</text><text class="activity-meta" x="16" y="49">Student–staff–faculty</text><text class="activity-meta" x="16" y="67">coalitions</text></g>
+
+    <g transform="translate(785 795)"><title>Diversity, Inclusion and Leadership in Tech – Course creator and instructor, Harvard</title><circle class="stage-4-fill" cx="4" cy="-5" r="4"/><text class="activity-name" x="16" y="0">Diversity, Inclusion and</text><text class="activity-name" x="16" y="21">Leadership in Tech</text><text class="activity-meta" x="16" y="49">Course creator + instructor</text><text class="activity-meta" x="16" y="67">Harvard</text></g>
+  </g>
+
+  <text class="note" x="35" y="1118">Activities are placed where they make their primary contribution; many connect several stages.</text>
+</svg>

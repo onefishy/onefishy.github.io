@@ -3,7 +3,7 @@
   // top/bottom margins don't collapse through and leak the wrong background
   // color into the gap at the section boundary.
   display: flow-root;
-  padding: 3em 0;
+  padding: 3em 1em;
 }
 
 .section--about           { background: $section-bg-about; }

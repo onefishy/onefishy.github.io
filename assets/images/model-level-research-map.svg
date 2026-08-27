@@ -1,0 +1,189 @@
+<svg class="model-level-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1265" width="1400" height="1265" role="img" aria-labelledby="title desc">
+  <title id="title">Model-level assurance research map</title>
+  <desc id="desc">Nineteen linked publications organized by four model-level assurance questions: define relevant behavior, validate instruments, establish reliability limits, and bound the effects of control.</desc>
+  <style>
+    .model-level-map {
+      --ink: #18212f;
+      --muted: #5b6775;
+      --rule: #d9dee7;
+      --link-rule: #9aa5b3;
+      --define: #2563eb;
+      --validate: #0f8a7a;
+      --limit: #7c4dcc;
+      --control: #d97706;
+      font-family: "EB Garamond", Garamond, "Times New Roman", serif;
+    }
+    .title { fill: var(--ink); font-size: 29px; font-weight: 500; }
+    .note, .axis-label, .question, .insight { fill: var(--muted); }
+    .note { font-size: 15px; }
+    .axis-label { font-size: 14px; }
+    .step { fill: var(--ink); font-size: 15px; font-weight: 500; letter-spacing: 1.5px; }
+    .question { font-size: 13px; }
+    .group { fill: var(--muted); font-size: 14px; font-weight: 500; letter-spacing: 1.25px; }
+    .work { fill: var(--ink); font-size: 17px; }
+    .citation { font-weight: 500; }
+    .guide, .group-rule { stroke: var(--rule); stroke-width: 1; vector-effect: non-scaling-stroke; }
+    .group-rule { opacity: 0.95; }
+    .guide { opacity: 0.72; }
+    .head-rule { stroke-width: 4; vector-effect: non-scaling-stroke; }
+    .define { fill: var(--define); stroke: var(--define); }
+    .validate { fill: var(--validate); stroke: var(--validate); }
+    .limit { fill: var(--limit); stroke: var(--limit); }
+    .control { fill: var(--control); stroke: var(--control); }
+    .dot { stroke: none; }
+    .work-link { text-decoration: underline; text-decoration-color: var(--link-rule); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .work-link:hover { text-decoration-color: var(--ink); }
+  </style>
+
+  <text class="title" x="60" y="58">Model-level assurance</text>
+  <text class="note" x="60" y="90">Multiple dots mark works that answer more than one assurance question.</text>
+
+  <text class="axis-label" x="60" y="160">Works and their model-level insights</text>
+
+  <line class="head-rule define" x1="785" y1="126" x2="845" y2="126" />
+  <text class="step" x="815" y="153" text-anchor="middle">DEFINE</text>
+  <text class="question" x="815" y="178" text-anchor="middle"><tspan x="815">Which behaviour</tspan><tspan x="815" dy="18">matters?</tspan></text>
+
+  <line class="head-rule validate" x1="945" y1="126" x2="1005" y2="126" />
+  <text class="step" x="975" y="153" text-anchor="middle">VALIDATE</text>
+  <text class="question" x="975" y="178" text-anchor="middle"><tspan x="975">Does the instrument</tspan><tspan x="975" dy="18">measure it?</tspan></text>
+
+  <line class="head-rule limit" x1="1105" y1="126" x2="1165" y2="126" />
+  <text class="step" x="1135" y="153" text-anchor="middle">LIMIT</text>
+  <text class="question" x="1135" y="178" text-anchor="middle"><tspan x="1135">When does reliability</tspan><tspan x="1135" dy="18">break?</tspan></text>
+
+  <line class="head-rule control" x1="1265" y1="126" x2="1325" y2="126" />
+  <text class="step" x="1295" y="153" text-anchor="middle">CONTROL</text>
+  <text class="question" x="1295" y="178" text-anchor="middle"><tspan x="1295">What else</tspan><tspan x="1295" dy="18">changes?</tspan></text>
+
+  <line class="guide" x1="815" y1="218" x2="815" y2="1225" />
+  <line class="guide" x1="975" y1="218" x2="975" y2="1225" />
+  <line class="guide" x1="1135" y1="218" x2="1135" y2="1225" />
+  <line class="guide" x1="1295" y1="218" x2="1295" y2="1225" />
+
+  <line class="group-rule" x1="60" y1="230" x2="1340" y2="230" />
+  <text class="group" x="60" y="256">TASK-SPECIFIC PROPERTIES AND PROBES</text>
+
+  <a class="work-link" href="https://research.ibm.com/publications/optimizing-the-multiclass-f-measure-via-biconcave-programming" target="_blank" rel="noopener noreferrer" aria-label="Optimizing the Multiclass F-measure via Biconcave Programming">
+    <title>Optimizing the Multiclass F-measure via Biconcave Programming</title>
+    <text class="work" x="60" y="294"><tspan class="citation">Narasimhan et al. &#8217;16</tspan><tspan class="insight"> &#8212; task-specific multiclass objectives</tspan></text>
+  </a>
+  <circle class="dot define" cx="815" cy="288" r="6" />
+
+  <a class="work-link" href="https://doi.org/10.1103/PhysRevResearch.5.043084" target="_blank" rel="noopener noreferrer" aria-label="HubbardNet: Efficient predictions of the Bose-Hubbard model spectrum with deep neural networks">
+    <title>HubbardNet: Efficient predictions of the Bose-Hubbard model spectrum with deep neural networks</title>
+    <text class="work" x="60" y="336"><tspan class="citation">Zhu et al. &#8217;23</tspan><tspan class="insight"> &#8212; scientific output structure</tspan></text>
+  </a>
+  <circle class="dot define" cx="815" cy="330" r="6" />
+
+  <a class="work-link" href="https://openreview.net/forum?id=mk1YIkVvTQ" target="_blank" rel="noopener noreferrer" aria-label="Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models">
+    <title>Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models</title>
+    <text class="work" x="60" y="378"><tspan class="citation">Magid et al. &#8217;25</tspan><tspan class="insight"> &#8212; concept associations in text-to-image models</tspan></text>
+  </a>
+  <circle class="dot define" cx="815" cy="372" r="6" /><circle class="dot validate" cx="975" cy="372" r="6" />
+
+  <a class="work-link" href="https://neurips.cc/virtual/2024/103333" target="_blank" rel="noopener noreferrer" aria-label="Understanding Model Bias Requires Systematic Probing Across Tasks">
+    <title>Understanding Model Bias Requires Systematic Probing Across Tasks</title>
+    <text class="work" x="60" y="420"><tspan class="citation">Boussard et al. &#8217;24</tspan><tspan class="insight"> &#8212; bias shifts across tasks and prompts</tspan></text>
+  </a>
+  <circle class="dot define" cx="815" cy="414" r="6" /><circle class="dot validate" cx="975" cy="414" r="6" /><circle class="dot limit" cx="1135" cy="414" r="6" />
+
+  <a class="work-link" href="https://proceedings.mlr.press/v267/morehouse25a.html" target="_blank" rel="noopener noreferrer" aria-label="Position: Rethinking LLM Bias Probing Using Lessons from the Social Sciences">
+    <title>Position: Rethinking LLM Bias Probing Using Lessons from the Social Sciences</title>
+    <text class="work" x="60" y="462"><tspan class="citation">Morehouse et al. &#8217;25</tspan><tspan class="insight"> &#8212; social-science-grounded bias probes</tspan></text>
+  </a>
+  <circle class="dot define" cx="815" cy="456" r="6" /><circle class="dot validate" cx="975" cy="456" r="6" />
+
+  <line class="group-rule" x1="60" y1="490" x2="1340" y2="490" />
+  <text class="group" x="60" y="516">EXPLANATIONS AS INSTRUMENTS</text>
+
+  <a class="work-link" href="https://arxiv.org/abs/2106.13314" target="_blank" rel="noopener noreferrer" aria-label="Promises and Pitfalls of Black-Box Concept Learning Models">
+    <title>Promises and Pitfalls of Black-Box Concept Learning Models</title>
+    <text class="work" x="60" y="554"><tspan class="citation">Mahinpei et al. &#8217;21</tspan><tspan class="insight"> &#8212; unintended information in concept models</tspan></text>
+  </a>
+  <circle class="dot validate" cx="975" cy="548" r="6" /><circle class="dot limit" cx="1135" cy="548" r="6" />
+
+  <a class="work-link" href="https://arxiv.org/abs/2211.05667" target="_blank" rel="noopener noreferrer" aria-label="What Makes a Good Explanation? A Harmonized View of Properties of Explanations">
+    <title>What Makes a Good Explanation? A Harmonized View of Properties of Explanations</title>
+    <text class="work" x="60" y="596"><tspan class="citation">Chen et al. &#8217;22</tspan><tspan class="insight"> &#8212; explanation properties and metric trade-offs</tspan></text>
+  </a>
+  <circle class="dot define" cx="815" cy="590" r="6" /><circle class="dot validate" cx="975" cy="590" r="6" />
+
+  <a class="work-link" href="https://arxiv.org/abs/2410.23880" target="_blank" rel="noopener noreferrer" aria-label="Directly Optimizing Explanations for Desired Properties">
+    <title>Directly Optimizing Explanations for Desired Properties</title>
+    <text class="work" x="60" y="638"><tspan class="citation">Tadesse et al. &#8217;25</tspan><tspan class="insight"> &#8212; optimizing explanation trade-offs</tspan></text>
+  </a>
+  <circle class="dot define" cx="815" cy="632" r="6" /><circle class="dot validate" cx="975" cy="632" r="6" /><circle class="dot control" cx="1295" cy="632" r="6" />
+
+  <line class="group-rule" x1="60" y1="666" x2="1340" y2="666" />
+  <text class="group" x="60" y="692">INFERENCE AND FAILURE MODES</text>
+
+  <a class="work-link" href="https://arxiv.org/abs/1906.09686" target="_blank" rel="noopener noreferrer" aria-label="Quality of Uncertainty Quantification for Bayesian Neural Network Inference">
+    <title>Quality of Uncertainty Quantification for Bayesian Neural Network Inference</title>
+    <text class="work" x="60" y="730"><tspan class="citation">Yao et al. &#8217;19</tspan><tspan class="insight"> &#8212; task-relevant uncertainty quality</tspan></text>
+  </a>
+  <circle class="dot validate" cx="975" cy="724" r="6" /><circle class="dot limit" cx="1135" cy="724" r="6" />
+
+  <a class="work-link" href="https://proceedings.mlr.press/v151/coker22a.html" target="_blank" rel="noopener noreferrer" aria-label="Wide Mean-Field Bayesian Neural Networks Ignore the Data">
+    <title>Wide Mean-Field Bayesian Neural Networks Ignore the Data</title>
+    <text class="work" x="60" y="772"><tspan class="citation">Coker et al. &#8217;22</tspan><tspan class="insight"> &#8212; Bayesian networks can ignore data</tspan></text>
+  </a>
+  <circle class="dot limit" cx="1135" cy="766" r="6" />
+
+  <a class="work-link" href="https://arxiv.org/abs/2007.07124" target="_blank" rel="noopener noreferrer" aria-label="Failure Modes of Variational Autoencoders and Their Effects on Downstream Tasks">
+    <title>Failure Modes of Variational Autoencoders and Their Effects on Downstream Tasks</title>
+    <text class="work" x="60" y="814"><tspan class="citation">Yacoby et al. &#8217;20</tspan><tspan class="insight"> &#8212; VAE non-identifiability propagates downstream</tspan></text>
+  </a>
+  <circle class="dot limit" cx="1135" cy="808" r="6" />
+
+  <a class="work-link" href="https://arxiv.org/abs/2309.00254" target="_blank" rel="noopener noreferrer" aria-label="Why Do Universal Adversarial Attacks Work on Large Language Models? Geometry Might Be the Answer">
+    <title>Why Do Universal Adversarial Attacks Work on Large Language Models? Geometry Might Be the Answer</title>
+    <text class="work" x="60" y="856"><tspan class="citation">Subhash et al. &#8217;23</tspan><tspan class="insight"> &#8212; geometry of universal adversarial attacks</tspan></text>
+  </a>
+  <circle class="dot limit" cx="1135" cy="850" r="6" /><circle class="dot control" cx="1295" cy="850" r="6" />
+
+  <a class="work-link" href="https://icml.cc/virtual/2023/28923" target="_blank" rel="noopener noreferrer" aria-label="Soft Prompting Might Be a Bug, Not a Feature">
+    <title>Soft Prompting Might Be a Bug, Not a Feature</title>
+    <text class="work" x="60" y="898"><tspan class="citation">Bailey et al. &#8217;23</tspan><tspan class="insight"> &#8212; soft-prompt failure modes</tspan></text>
+  </a>
+  <circle class="dot limit" cx="1135" cy="892" r="6" /><circle class="dot control" cx="1295" cy="892" r="6" />
+
+  <line class="group-rule" x1="60" y1="926" x2="1340" y2="926" />
+  <text class="group" x="60" y="952">STRUCTURED REPRESENTATIONS AND INTERVENTIONS</text>
+
+  <a class="work-link" href="https://arxiv.org/abs/1812.03123" target="_blank" rel="noopener noreferrer" aria-label="Deep Variational Transfer: Transfer Learning through Semi-Supervised Deep Generative Models">
+    <title>Deep Variational Transfer: Transfer Learning through Semi-Supervised Deep Generative Models</title>
+    <text class="work" x="60" y="990"><tspan class="citation">Belhaj et al. &#8217;18</tspan><tspan class="insight"> &#8212; structured transfer through latent variables</tspan></text>
+  </a>
+  <circle class="dot limit" cx="1135" cy="984" r="6" /><circle class="dot control" cx="1295" cy="984" r="6" />
+
+  <a class="work-link" href="https://proceedings.mlr.press/v84/gottesman18a.html" target="_blank" rel="noopener noreferrer" aria-label="Weighted Tensor Decomposition for Learning Latent Variables with Partial Data">
+    <title>Weighted Tensor Decomposition for Learning Latent Variables with Partial Data</title>
+    <text class="work" x="60" y="1032"><tspan class="citation">Gottesman et al. &#8217;18</tspan><tspan class="insight"> &#8212; latent-variable recovery with partial data</tspan></text>
+  </a>
+  <circle class="dot validate" cx="975" cy="1026" r="6" /><circle class="dot limit" cx="1135" cy="1026" r="6" />
+
+  <a class="work-link" href="https://arxiv.org/abs/1806.08716" target="_blank" rel="noopener noreferrer" aria-label="Learning Qualitatively Diverse and Interpretable Rules for Classification">
+    <title>Learning Qualitatively Diverse and Interpretable Rules for Classification</title>
+    <text class="work" x="60" y="1074"><tspan class="citation">Ross et al. &#8217;18</tspan><tspan class="insight"> &#8212; diverse interpretable rule sets</tspan></text>
+  </a>
+  <circle class="dot define" cx="815" cy="1068" r="6" /><circle class="dot validate" cx="975" cy="1068" r="6" /><circle class="dot control" cx="1295" cy="1068" r="6" />
+
+  <a class="work-link" href="https://ojs.aaai.org/index.php/AAAI/article/view/6004" target="_blank" rel="noopener noreferrer" aria-label="Ensembles of Locally Independent Prediction Models">
+    <title>Ensembles of Locally Independent Prediction Models</title>
+    <text class="work" x="60" y="1116"><tspan class="citation">Ross et al. &#8217;20</tspan><tspan class="insight"> &#8212; locally independent prediction</tspan></text>
+  </a>
+  <circle class="dot limit" cx="1135" cy="1110" r="6" /><circle class="dot control" cx="1295" cy="1110" r="6" />
+
+  <a class="work-link" href="https://finale.seas.harvard.edu/publications/cruds-counterfactual-recourse-using-disentangled-subspaces" target="_blank" rel="noopener noreferrer" aria-label="CRUDS: Counterfactual Recourse Using Disentangled Subspaces">
+    <title>CRUDS: Counterfactual Recourse Using Disentangled Subspaces</title>
+    <text class="work" x="60" y="1158"><tspan class="citation">Downs et al. &#8217;20</tspan><tspan class="insight"> &#8212; counterfactual recourse in disentangled subspaces</tspan></text>
+  </a>
+  <circle class="dot validate" cx="975" cy="1152" r="6" /><circle class="dot control" cx="1295" cy="1152" r="6" />
+
+  <a class="work-link" href="https://icml.cc/virtual/2025/50956" target="_blank" rel="noopener noreferrer" aria-label="The Necessity for Intervention Fidelity: Unintended Side Effects When Steering LLMs">
+    <title>The Necessity for Intervention Fidelity: Unintended Side Effects When Steering LLMs</title>
+    <text class="work" x="60" y="1200"><tspan class="citation">Raedler et al. &#8217;25</tspan><tspan class="insight"> &#8212; intervention fidelity for language-model steering</tspan></text>
+  </a>
+  <circle class="dot validate" cx="975" cy="1194" r="6" /><circle class="dot limit" cx="1135" cy="1194" r="6" /><circle class="dot control" cx="1295" cy="1194" r="6" />
+</svg>
