@@ -43,6 +43,14 @@ In my research, I use a ***wide range of formal lenses and methodologies*** from
       text-anchor: middle;
     }
 
+    .assurance-diagram .subheading {
+      fill: var(--ink);
+      font-size: 17px;
+      font-weight: 400;
+      opacity: 0.6;
+      text-anchor: middle;
+    }
+
     .assurance-diagram .ring {
       stroke-width: 2;
       cursor: pointer;
@@ -122,6 +130,7 @@ In my research, I use a ***wide range of formal lenses and methodologies*** from
   </style>
 
   <text class="heading" x="600" y="58">Assurance Framework for Human-Centered AI</text>
+  <text class="subheading" x="600" y="84">(Click to See Research Map)</text>
 
   <g aria-label="Nested research levels">
     <g data-level="society">

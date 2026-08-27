@@ -5,7 +5,7 @@ anchor: teaching
 I designed and taught my first course, Advanced C++ Programming, at the age 16, during my junior year at Mary Baldwin College. Since then, I've ***designed and taught over 30 courses*** in Mathematics, Computer Science, Data Science and Machine Learning across undergraduate and graduate curricula, at six very different institutions of higher learning.
 
 <figure class="course-map-figure">
-<svg class="teaching-course-map" xmlns="http://www.w3.org/2000/svg" viewBox="-98 53 749 419" width="749" height="419" role="img" aria-label="Courses across subjects and levels" aria-describedby="cd-desc" preserveAspectRatio="xMidYMid meet">
+<svg class="teaching-course-map" xmlns="http://www.w3.org/2000/svg" viewBox="-98 28 749 444" width="749" height="444" role="img" aria-label="Courses across subjects and levels" aria-describedby="cd-desc" preserveAspectRatio="xMidYMid meet">
   <desc id="cd-desc">Thirty course entries are positioned along four subject directions and across three nested teaching levels. Hovering over a course mark shows its full title and institution.</desc>
 
   <style>
@@ -51,6 +51,14 @@ I designed and taught my first course, Advanced C++ Programming, at the age 16, 
       letter-spacing: 0.4px;
     }
 
+    .teaching-course-map .cd-subtitle {
+      fill: var(--teaching-map-ink);
+      font-size: 11px;
+      font-weight: 400;
+      opacity: 0.6;
+      text-anchor: middle;
+    }
+
     .teaching-course-map .cd-label-math { fill: var(--teaching-map-math); }
     .teaching-course-map .cd-label-cs { fill: var(--teaching-map-cs); }
     .teaching-course-map .cd-label-ml { fill: var(--teaching-map-ml); }
@@ -87,6 +95,8 @@ I designed and taught my first course, Advanced C++ Programming, at the age 16, 
       outline: none;
     }
   </style>
+
+  <text class="cd-subtitle" x="260" y="46">(Hover for Course Names)</text>
 
   <path class="cd-level-outer" d="M50 110 L470 110 L470 410 L50 410 Z"/>
   <path class="cd-level-middle" d="M92 140 L428 140 L428 380 L92 380 Z"/>
