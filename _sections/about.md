@@ -12,7 +12,7 @@ I am: a ***researcher*** who uses multidisciplinary and interdisciplinary lenses
 
 ## Bio
 
-I am starting a new research lab, the [Normative and User-Oriented Machine Intelligence (NUOMI) Lab](https://nuomi-lab.github.io/), at ***[London South Bank University](https://www.lsbu.ac.uk/)***. I am actively seeking new collaborations and actively building new research projects. Please [reach out](mailto:nuomi.lab@gmail.com) if you're interested in working with my lab!
+I am starting a new research lab, the [Normative and User-Oriented Machine Intelligence (NUOMI) Lab](https://nuomi-lab.github.io/), at ***London South Bank University***. I am actively seeking new collaborations and actively building new research projects. Please [reach out](mailto:nuomi.lab@gmail.com) if you're interested in working with my lab!
 
 For the past decade at ***Harvard University***, I co-led research in the [Data to Actionable Knowledge lab](https://dtak.github.io/) (DtAK), served as the Assistant Director for Graduate Studies in Data Science, taught machine learning and data science at the undergraduate and graduate level, and led initiatives in [Equity, Diversity, Inclusion and Belonging](/#community).
 
